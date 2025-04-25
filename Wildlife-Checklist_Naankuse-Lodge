@@ -1,0 +1,129 @@
+<style>
+    
+ @import url("https://use.typekit.net/xah5shv.css");
+
+    
+    .custom_checkbox_text {
+        font-family: century-gothic;
+        font-size: 18px;
+        color: #B3A491;
+        line-height: 20px;
+        margin-left: 20px;
+    }
+    
+    .custom_checkbox_03 {
+        align-items: center;
+    }
+    
+    .custom_checkbox_03 label{
+        position: relative;
+        width: 15px;
+        height: 15px;
+    }
+    
+    .custom_checkbox_03 input{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+    }
+    
+    .custom_checkbox_03 label span{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border: 2px solid #B3A491;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .custom_checkbox_03 label span::after{
+        content: '';
+        position: absolute;
+        left:3px;
+        bottom:2px;
+        width:0px;
+        height:0px;
+        border: solid 1px;
+        border-width: 0 2px 2px 0;
+        transform: rotate(40deg);
+        opacity: 0;
+    
+    }
+    
+    .custom_checkbox_03 input:checked ~ span::after{
+        width:5px;
+        height:10px;
+        opacity: 1;
+    }
+    
+</style>
+
+
+
+        <div class="custom_checkbox_02">
+             <div class="custom_checkbox_03">
+                <p class="custom_checkbox_text" id="custom_checkbox_kudu">
+                <label>
+                    <input type="checkbox" checked="checked">
+                    <span></span>
+                </label>
+                Kudu</p>
+            </div>
+        </div>
+        
+        <div class="custom_checkbox_02">
+             <div class="custom_checkbox_03">
+                <p class="custom_checkbox_text" id="custom_checkbox_rhino">
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+                Rhino</p>
+            </div>
+        </div>
+        
+         <div class="custom_checkbox_02">
+             <div class="custom_checkbox_03">
+                <p class="custom_checkbox_text" id="custom_checkbox_cheetah">
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+                Cheetah</p>
+            </div>
+        </div>
+        
+        <div class="custom_checkbox_02">
+             <div class="custom_checkbox_03">
+                <p class="custom_checkbox_text" id="custom_checkbox_lion">
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+                Lion</p>
+            </div>
+        </div>
+        
+        <div class="custom_checkbox_02">
+             <div class="custom_checkbox_03">
+                <p class="custom_checkbox_text" id="custom_checkbox_elephant">
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+                Elephant</p>
+            </div>
+        </div>
+        
+        <div class="custom_checkbox_02">
+             <div class="custom_checkbox_03">
+                <p class="custom_checkbox_text" id="custom_checkbox_giraffe">
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+                Giraffe</p>
+            </div>
+        </div>
