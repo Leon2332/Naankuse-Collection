@@ -41,6 +41,10 @@ CLIENT: https://www.naankusecollection.com/
     color: #434462;
   }
 
+  .map_layout_1_villa_title:hover {
+    color: #ab292e;
+  }
+
 
   :has(#map_layout_1_villa_1:hover) :is(#map_layout_1_villa_title_1),
   :has(#map_layout_1_villa_2:hover) :is(#map_layout_1_villa_title_2),
