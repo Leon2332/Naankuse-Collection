@@ -48,6 +48,11 @@ CLIENT: https://www.naankusecollection.com/
 
 /*id selectors*/
 
+  :has(#map_location_1:hover) :is(#map_button_book-now) {
+    background-color: white;
+    color: #434462;
+  }
+
   :has(#map_reserve_1:hover) :is(#map_reserve_text_1),
   :has(#map_reserve_2:hover) :is(#map_reserve_text_2),
   :has(#map_reserve_3:hover) :is(#map_reserve_text_3),
