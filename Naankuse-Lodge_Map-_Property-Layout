@@ -21,7 +21,7 @@ CLIENT: https://www.naankusecollection.com/
   }
 
   .map_layout_1_villa_circle {
-    stroke-width: 2;
+    stroke-width: 1.5;
     stroke: none;
     fill: none;
   }
