@@ -39,6 +39,7 @@ CLIENT: https://www.naankusecollection.com/
 
   .map_heading_text:hover {
     color:#434462;
+    text-decoration: underline;
   }
 
   .map_regions {
@@ -86,61 +87,62 @@ CLIENT: https://www.naankusecollection.com/
   
 /*id selectors*/
 
-
-  :has(#map_location_1:hover) :is(#map_location_text_1, #map_heading_text_1 a),
-  :has(#map_location_2:hover) :is(#map_location_text_2, #map_heading_text_2 a),
-  :has(#map_location_3:hover) :is(#map_location_text_3, #map_heading_text_3 a),
-  :has(#map_location_4:hover) :is(#map_location_text_4, #map_heading_text_4 a),
-  :has(#map_location_5:hover) :is(#map_location_text_5, #map_heading_text_5 a),
-  :has(#map_location_6:hover) :is(#map_location_text_6, #map_heading_text_6 a),
-  :has(#map_location_7:hover) :is(#map_location_text_7, #map_heading_text_7 a),
-  :has(#map_location_8:hover) :is(#map_location_text_8, #map_heading_text_8 a)
-    {
-    fill: #434462;
-    color: #434462;
-  }
-
-  :has(#map_heading_text_1:hover) :is(#map_location_text_1, #map_heading_text_1, #map_location_1),
-  :has(#map_heading_text_2:hover) :is(#map_location_text_2, #map_heading_text_2, #map_location_2),
-  :has(#map_heading_text_3:hover) :is(#map_location_text_3, #map_heading_text_3, #map_location_3),
-  :has(#map_heading_text_4:hover) :is(#map_location_text_4, #map_heading_text_4, #map_location_4),
-  :has(#map_heading_text_5:hover) :is(#map_location_text_5, #map_heading_text_5, #map_location_5),
-  :has(#map_heading_text_6:hover) :is(#map_location_text_6, #map_heading_text_6, #map_location_6),
-  :has(#map_heading_text_7:hover) :is(#map_location_text_7, #map_heading_text_7, #map_location_7),
-  :has(#map_heading_text_8:hover) :is(#map_location_text_8, #map_heading_text_8, #map_location_8)
-    {
-    fill: #434462;
-    color: #434462;
-  }
-
-  :has(#map_reserve_1:hover) :is(#map_reserve_text_1),
-  :has(#map_reserve_2:hover) :is(#map_reserve_text_2),
-  :has(#map_reserve_3:hover) :is(#map_reserve_text_3),
-  :has(#map_reserve_4:hover) :is(#map_reserve_text_4),
-  :has(#map_reserve_5:hover) :is(#map_reserve_text_5),
-  :has(#map_reserve_6:hover) :is(#map_reserve_text_6),
-  :has(#map_reserve_7:hover) :is(#map_reserve_text_7),
-  :has(#map_reserve_8:hover) :is(#map_reserve_text_8),
-  :has(#map_reserve_9:hover) :is(#map_reserve_text_9),
-  :has(#map_reserve_10:hover) :is(#map_reserve_text_10),
-  :has(#map_reserve_11:hover) :is(#map_reserve_text_11),
-  :has(#map_reserve_12:hover) :is(#map_reserve_text_12),
-  :has(#map_reserve_13:hover) :is(#map_reserve_text_13),
-  :has(#map_reserve_14:hover) :is(#map_reserve_text_14),
-  :has(#map_reserve_15:hover) :is(#map_reserve_text_15),
-  :has(#map_reserve_16:hover) :is(#map_reserve_text_16),
-  :has(#map_reserve_17:hover) :is(#map_reserve_text_17),
-  :has(#map_reserve_18:hover) :is(#map_reserve_text_18),
-  :has(#map_reserve_19:hover) :is(#map_reserve_text_19),
-  :has(#map_reserve_20:hover) :is(#map_reserve_text_20),
-  :has(#map_reserve_21:hover) :is(#map_reserve_text_21),
-  :has(#map_reserve_22:hover) :is(#map_reserve_text_22),
-  :has(#map_reserve_23:hover) :is(#map_reserve_text_23),
-  :has(#map_reserve_24:hover) :is(#map_reserve_text_24),
-  :has(#map_reserve_25:hover) :is(#map_reserve_text_25)
-    {
-    fill: #434462;
-  }
+@media (min-width: 801px) {
+    :has(#map_location_1:hover) :is(#map_location_text_1, #map_heading_text_1 a),
+    :has(#map_location_2:hover) :is(#map_location_text_2, #map_heading_text_2 a),
+    :has(#map_location_3:hover) :is(#map_location_text_3, #map_heading_text_3 a),
+    :has(#map_location_4:hover) :is(#map_location_text_4, #map_heading_text_4 a),
+    :has(#map_location_5:hover) :is(#map_location_text_5, #map_heading_text_5 a),
+    :has(#map_location_6:hover) :is(#map_location_text_6, #map_heading_text_6 a),
+    :has(#map_location_7:hover) :is(#map_location_text_7, #map_heading_text_7 a),
+    :has(#map_location_8:hover) :is(#map_location_text_8, #map_heading_text_8 a)
+      {
+      fill: #434462;
+      color: #434462;
+    }
+  
+    :has(#map_heading_text_1:hover) :is(#map_location_text_1, #map_heading_text_1, #map_location_1),
+    :has(#map_heading_text_2:hover) :is(#map_location_text_2, #map_heading_text_2, #map_location_2),
+    :has(#map_heading_text_3:hover) :is(#map_location_text_3, #map_heading_text_3, #map_location_3),
+    :has(#map_heading_text_4:hover) :is(#map_location_text_4, #map_heading_text_4, #map_location_4),
+    :has(#map_heading_text_5:hover) :is(#map_location_text_5, #map_heading_text_5, #map_location_5),
+    :has(#map_heading_text_6:hover) :is(#map_location_text_6, #map_heading_text_6, #map_location_6),
+    :has(#map_heading_text_7:hover) :is(#map_location_text_7, #map_heading_text_7, #map_location_7),
+    :has(#map_heading_text_8:hover) :is(#map_location_text_8, #map_heading_text_8, #map_location_8)
+      {
+      fill: #434462;
+      color: #434462;
+    }
+  
+    :has(#map_reserve_1:hover) :is(#map_reserve_text_1),
+    :has(#map_reserve_2:hover) :is(#map_reserve_text_2),
+    :has(#map_reserve_3:hover) :is(#map_reserve_text_3),
+    :has(#map_reserve_4:hover) :is(#map_reserve_text_4),
+    :has(#map_reserve_5:hover) :is(#map_reserve_text_5),
+    :has(#map_reserve_6:hover) :is(#map_reserve_text_6),
+    :has(#map_reserve_7:hover) :is(#map_reserve_text_7),
+    :has(#map_reserve_8:hover) :is(#map_reserve_text_8),
+    :has(#map_reserve_9:hover) :is(#map_reserve_text_9),
+    :has(#map_reserve_10:hover) :is(#map_reserve_text_10),
+    :has(#map_reserve_11:hover) :is(#map_reserve_text_11),
+    :has(#map_reserve_12:hover) :is(#map_reserve_text_12),
+    :has(#map_reserve_13:hover) :is(#map_reserve_text_13),
+    :has(#map_reserve_14:hover) :is(#map_reserve_text_14),
+    :has(#map_reserve_15:hover) :is(#map_reserve_text_15),
+    :has(#map_reserve_16:hover) :is(#map_reserve_text_16),
+    :has(#map_reserve_17:hover) :is(#map_reserve_text_17),
+    :has(#map_reserve_18:hover) :is(#map_reserve_text_18),
+    :has(#map_reserve_19:hover) :is(#map_reserve_text_19),
+    :has(#map_reserve_20:hover) :is(#map_reserve_text_20),
+    :has(#map_reserve_21:hover) :is(#map_reserve_text_21),
+    :has(#map_reserve_22:hover) :is(#map_reserve_text_22),
+    :has(#map_reserve_23:hover) :is(#map_reserve_text_23),
+    :has(#map_reserve_24:hover) :is(#map_reserve_text_24),
+    :has(#map_reserve_25:hover) :is(#map_reserve_text_25)
+      {
+      fill: #434462;
+    }
+}
 
 
 </style>
