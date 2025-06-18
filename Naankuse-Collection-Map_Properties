@@ -305,6 +305,31 @@ CLIENT: https://www.naankusecollection.com/
 
 
 <script>
+  function showMapLayout(index) {
+    // Hide all and reset styles
+    for (let j = 1; j <= 8; j++) {
+      const layout = document.getElementById(`map_layout_${j}`);
+      if (layout) layout.style.display = "none";
+
+      const button = document.getElementById(`map_heading_text_${j}`);
+      if (button) button.style.color = "";
+
+      const location = document.getElementById(`map_location_${j}`);
+      if (location) location.style.fill = "";
+    }
+
+    // Show and highlight the selected one
+    const targetLayout = document.getElementById(`map_layout_${index}`);
+    if (targetLayout) targetLayout.style.display = "block";
+
+    const activeButton = document.getElementById(`map_heading_text_${index}`);
+    if (activeButton) activeButton.style.color = "#434462";
+
+    const activeLocation = document.getElementById(`map_location_${index}`);
+    if (activeLocation) activeLocation.style.fill = "#434462";
+  }
+
+  // Set up click handlers
   for (let i = 1; i <= 8; i++) {
     const triggerIds = [`map_heading_text_${i}`, `map_location_${i}`];
 
@@ -312,33 +337,14 @@ CLIENT: https://www.naankusecollection.com/
       const trigger = document.getElementById(id);
       if (trigger) {
         trigger.addEventListener("click", () => {
-          // Hide all content sections
-          for (let j = 1; j <= 8; j++) {
-            const layout = document.getElementById(`map_layout_${j}`);
-            if (layout) layout.style.display = "none";
-
-            // Reset button text color
-            const button = document.getElementById(`map_heading_text_${j}`);
-            if (button) button.style.color = "";
-
-            // Reset map location fill
-            const location = document.getElementById(`map_location_${j}`);
-            if (location) location.style.fill = "";
-          }
-
-          // Show the matched layout
-          const targetLayout = document.getElementById(`map_layout_${i}`);
-          if (targetLayout) targetLayout.style.display = "block";
-
-          // Set active styles
-          const activeButton = document.getElementById(`map_heading_text_${i}`);
-          if (activeButton) activeButton.style.color = "#434462";
-
-          const activeLocation = document.getElementById(`map_location_${i}`);
-          if (activeLocation) activeLocation.style.fill = "#434462";
+          showMapLayout(i);
         });
       }
     });
   }
-</script>
 
+  // Show layout 1 by default when page loads
+  window.addEventListener("DOMContentLoaded", () => {
+    showMapLayout(1);
+  });
+</script>
