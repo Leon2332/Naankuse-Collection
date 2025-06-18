@@ -60,9 +60,6 @@ CLIENT: https://www.naankusecollection.com/
   }
 
   @media (max-width: 800px) {
-    .map_locations {
-        fill: #434462;
-    }
     .map_location_text { 
         fill: #434462;
     }
@@ -78,12 +75,12 @@ CLIENT: https://www.naankusecollection.com/
     }
   }
 
+ .map_layouts {
+        display: none;
+    }
 
 
 
-  .map_layouts {
-    display: none;
-  }
 
 
   
