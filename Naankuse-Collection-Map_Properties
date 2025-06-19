@@ -325,7 +325,7 @@ CLIENT: https://www.naankusecollection.com/
     if (activeButton) activeButton.style.color = "#434462";
 
     const activeLocation = document.getElementById(`map_location_${index}`);
-    if (activeLocation) activeLocation.style.fill = "#434462";
+    if (activeLocation) activeLocation.style.fill = "#ab292f";
   }
 
   // Set up click handlers
