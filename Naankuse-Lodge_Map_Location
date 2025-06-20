@@ -36,7 +36,7 @@ CLIENT: https://www.naankusecollection.com/
   .map_locations {
     stroke-width: 3;
     stroke: #434462;
-    fill: white;
+    fill: #ab292e;
   }
 
   .map_location_text {
