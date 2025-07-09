@@ -1,0 +1,257 @@
+<style>
+
+/* ======================
+SOURCE: https://github.com/Leon2332/Naankuse-Collection/blob/main/Kanaan-Desert-Retreat_map_property-layout
+AUTHOR: Leon (https://github.com/Leon2332)
+CLIENT: https://www.naankusecollection.com/
+====================== */
+
+@import url("https://use.typekit.net/xah5shv.css");
+
+  .map_layout_3_villa_text {
+    font-family: century-gothic;
+    font-size: 18px;
+    fill: none;
+  }
+
+  .map_layout_3_main-road_text {
+    font-family: century-gothic;
+    font-size: 14px;
+    fill: #434462;
+  }
+
+  .map_layout_3_villa_circle {
+    stroke-width: 1.5;
+    stroke: none;
+    fill: none;
+  }
+
+  .map_layout_3_roads {
+    stoke-width: 1;
+    stroke: #434462;
+    fill: none;
+  }
+
+  .map_layout_3_villas {
+    stroke-width: 1;
+    stroke: #434462;
+    fill: #43446250;
+  }
+
+  .map_layout_3_villas:hover {
+    fill: #434462;
+  }
+
+  .map_layout_3_villa_title {
+    color: #434462;
+  }
+
+  .map_layout_3_villa_title:hover {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_3_villa_1:hover) :is(#map_layout_3_villa_title_1),
+  :has(#map_layout_3_villa_2:hover) :is(#map_layout_3_villa_title_2),
+  :has(#map_layout_3_villa_3:hover) :is(#map_layout_3_villa_title_3),
+  :has(#map_layout_3_villa_4:hover) :is(#map_layout_3_villa_title_4),
+  :has(#map_layout_3_villa_5:hover) :is(#map_layout_3_villa_title_5),
+  :has(#map_layout_3_villa_6:hover) :is(#map_layout_3_villa_title_6),
+  :has(#map_layout_3_villa_7:hover) :is(#map_layout_3_villa_title_7),
+  :has(#map_layout_3_villa_8:hover) :is(#map_layout_3_villa_title_8),
+  :has(#map_layout_3_villa_9:hover) :is(#map_layout_3_villa_title_9),
+  :has(#map_layout_3_villa_10:hover) :is(#map_layout_3_villa_title_10),
+  :has(#map_layout_3_villa_11:hover) :is(#map_layout_3_villa_title_11),
+  :has(#map_layout_3_villa_12:hover) :is(#map_layout_3_villa_title_12),
+  :has(#map_layout_3_villa_13:hover) :is(#map_layout_3_villa_title_13),
+  :has(#map_layout_3_villa_14:hover) :is(#map_layout_3_villa_title_14),
+  :has(#map_layout_3_villa_15:hover) :is(#map_layout_3_villa_title_15),
+  :has(#map_layout_3_villa_16:hover) :is(#map_layout_3_villa_title_16),
+  :has(#map_layout_3_villa_17:hover) :is(#map_layout_3_villa_title_17),
+  :has(#map_layout_3_villa_18:hover) :is(#map_layout_3_villa_title_18),
+  :has(#map_layout_3_villa_19:hover) :is(#map_layout_3_villa_title_19),
+  :has(#map_layout_3_villa_20:hover) :is(#map_layout_3_villa_title_20),
+  :has(#map_layout_3_villa_21:hover) :is(#map_layout_3_villa_title_21),
+  :has(#map_layout_3_villa_22:hover) :is(#map_layout_3_villa_title_22),
+  :has(#map_layout_3_villa_23:hover) :is(#map_layout_3_villa_title_23),
+  :has(#map_layout_3_villa_24:hover) :is(#map_layout_3_villa_title_24),
+  :has(#map_layout_3_villa_25:hover) :is(#map_layout_3_villa_title_25),
+  :has(#map_layout_3_villa_26:hover) :is(#map_layout_3_villa_title_26),
+  :has(#map_layout_3_villa_27:hover) :is(#map_layout_3_villa_title_27),
+  :has(#map_layout_3_villa_28:hover) :is(#map_layout_3_villa_title_28),
+  :has(#map_layout_3_villa_29:hover) :is(#map_layout_3_villa_title_29),
+  :has(#map_layout_3_villa_30:hover) :is(#map_layout_3_villa_title_30),
+  :has(#map_layout_3_villa_31:hover) :is(#map_layout_3_villa_title_31)
+    {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_3_villa_title_1:hover) :is(#map_layout_3_villa_circle_1, #map_layout_3_villa_title_1),
+  :has(#map_layout_3_villa_title_2:hover) :is(#map_layout_3_villa_circle_2, #map_layout_3_villa_title_2),
+  :has(#map_layout_3_villa_title_3:hover) :is(#map_layout_3_villa_circle_3, #map_layout_3_villa_title_3),
+  :has(#map_layout_3_villa_title_4:hover) :is(#map_layout_3_villa_circle_4, #map_layout_3_villa_title_4),
+  :has(#map_layout_3_villa_title_5:hover) :is(#map_layout_3_villa_circle_5, #map_layout_3_villa_title_5),
+  :has(#map_layout_3_villa_title_6:hover) :is(#map_layout_3_villa_circle_6, #map_layout_3_villa_title_6),
+  :has(#map_layout_3_villa_title_7:hover) :is(#map_layout_3_villa_circle_7, #map_layout_3_villa_title_7),
+  :has(#map_layout_3_villa_title_8:hover) :is(#map_layout_3_villa_circle_8, #map_layout_3_villa_title_8),
+  :has(#map_layout_3_villa_title_9:hover) :is(#map_layout_3_villa_circle_9, #map_layout_3_villa_title_9),
+  :has(#map_layout_3_villa_title_10:hover) :is(#map_layout_3_villa_circle_10, #map_layout_3_villa_title_10),
+  :has(#map_layout_3_villa_title_11:hover) :is(#map_layout_3_villa_circle_11, #map_layout_3_villa_title_11),
+  :has(#map_layout_3_villa_title_12:hover) :is(#map_layout_3_villa_circle_12, #map_layout_3_villa_title_12),
+  :has(#map_layout_3_villa_title_13:hover) :is(#map_layout_3_villa_circle_13, #map_layout_3_villa_title_13),
+  :has(#map_layout_3_villa_title_14:hover) :is(#map_layout_3_villa_circle_14, #map_layout_3_villa_title_14),
+  :has(#map_layout_3_villa_title_15:hover) :is(#map_layout_3_villa_circle_15, #map_layout_3_villa_title_15),
+  :has(#map_layout_3_villa_title_16:hover) :is(#map_layout_3_villa_circle_16, #map_layout_3_villa_title_16),
+  :has(#map_layout_3_villa_title_17:hover) :is(#map_layout_3_villa_circle_17, #map_layout_3_villa_title_17),
+  :has(#map_layout_3_villa_title_18:hover) :is(#map_layout_3_villa_circle_18, #map_layout_3_villa_title_18),
+  :has(#map_layout_3_villa_title_19:hover) :is(#map_layout_3_villa_circle_19, #map_layout_3_villa_title_19),
+  :has(#map_layout_3_villa_title_20:hover) :is(#map_layout_3_villa_circle_20, #map_layout_3_villa_title_20),
+  :has(#map_layout_3_villa_title_21:hover) :is(#map_layout_3_villa_circle_21, #map_layout_3_villa_title_21),
+  :has(#map_layout_3_villa_title_22:hover) :is(#map_layout_3_villa_circle_22, #map_layout_3_villa_title_22),
+  :has(#map_layout_3_villa_title_23:hover) :is(#map_layout_3_villa_circle_23, #map_layout_3_villa_title_23),
+  :has(#map_layout_3_villa_title_24:hover) :is(#map_layout_3_villa_circle_24, #map_layout_3_villa_title_24),
+  :has(#map_layout_3_villa_title_25:hover) :is(#map_layout_3_villa_circle_25, #map_layout_3_villa_title_25),
+  :has(#map_layout_3_villa_title_26:hover) :is(#map_layout_3_villa_circle_26, #map_layout_3_villa_title_26),
+  :has(#map_layout_3_villa_title_27:hover) :is(#map_layout_3_villa_circle_27, #map_layout_3_villa_title_27),
+  :has(#map_layout_3_villa_title_28:hover) :is(#map_layout_3_villa_circle_28, #map_layout_3_villa_title_28),
+  :has(#map_layout_3_villa_title_29:hover) :is(#map_layout_3_villa_circle_29, #map_layout_3_villa_title_29),
+  :has(#map_layout_3_villa_title_30:hover) :is(#map_layout_3_villa_circle_30, #map_layout_3_villa_title_30),
+  :has(#map_layout_3_villa_title_31:hover) :is(#map_layout_3_villa_circle_31, #map_layout_3_villa_title_31)
+    {
+    stroke: #ab292e;
+  }
+
+  :has(#map_layout_3_villa_title_1:hover) :is(#map_layout_3_villa_1),
+  :has(#map_layout_3_villa_title_2:hover) :is(#map_layout_3_villa_2),
+  :has(#map_layout_3_villa_title_3:hover) :is(#map_layout_3_villa_3),
+  :has(#map_layout_3_villa_title_4:hover) :is(#map_layout_3_villa_4),
+  :has(#map_layout_3_villa_title_5:hover) :is(#map_layout_3_villa_5),
+  :has(#map_layout_3_villa_title_6:hover) :is(#map_layout_3_villa_6),
+  :has(#map_layout_3_villa_title_7:hover) :is(#map_layout_3_villa_7),
+  :has(#map_layout_3_villa_title_8:hover) :is(#map_layout_3_villa_8),
+  :has(#map_layout_3_villa_title_9:hover) :is(#map_layout_3_villa_9),
+  :has(#map_layout_3_villa_title_10:hover) :is(#map_layout_3_villa_10),
+  :has(#map_layout_3_villa_title_11:hover) :is(#map_layout_3_villa_11),
+  :has(#map_layout_3_villa_title_12:hover) :is(#map_layout_3_villa_12),
+  :has(#map_layout_3_villa_title_13:hover) :is(#map_layout_3_villa_13),
+  :has(#map_layout_3_villa_title_14:hover) :is(#map_layout_3_villa_14),
+  :has(#map_layout_3_villa_title_15:hover) :is(#map_layout_3_villa_15),
+  :has(#map_layout_3_villa_title_16:hover) :is(#map_layout_3_villa_16),
+  :has(#map_layout_3_villa_title_17:hover) :is(#map_layout_3_villa_17),
+  :has(#map_layout_3_villa_title_18:hover) :is(#map_layout_3_villa_18),
+  :has(#map_layout_3_villa_title_19:hover) :is(#map_layout_3_villa_19),
+  :has(#map_layout_3_villa_title_20:hover) :is(#map_layout_3_villa_20),
+  :has(#map_layout_3_villa_title_21:hover) :is(#map_layout_3_villa_21),
+  :has(#map_layout_3_villa_title_22:hover) :is(#map_layout_3_villa_22),
+  :has(#map_layout_3_villa_title_23:hover) :is(#map_layout_3_villa_23),
+  :has(#map_layout_3_villa_title_24:hover) :is(#map_layout_3_villa_24),
+  :has(#map_layout_3_villa_title_25:hover) :is(#map_layout_3_villa_25),
+  :has(#map_layout_3_villa_title_26:hover) :is(#map_layout_3_villa_26),
+  :has(#map_layout_3_villa_title_27:hover) :is(#map_layout_3_villa_27),
+  :has(#map_layout_3_villa_title_28:hover) :is(#map_layout_3_villa_28),
+  :has(#map_layout_3_villa_title_29:hover) :is(#map_layout_3_villa_29),
+  :has(#map_layout_3_villa_title_30:hover) :is(#map_layout_3_villa_30),
+  :has(#map_layout_3_villa_title_31:hover) :is(#map_layout_3_villa_31)
+    {
+    fill: #434462;
+  }
+
+@media (min-width: 993px) {
+  
+    .map_layout_3_villa_cards {
+      width: 12.5%;
+      filter: grayscale(.5) brightness(0.9);
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+    }
+  
+    .map_layout_3_villa_cards:hover {
+      width: 20%;
+      filter: grayscale(0) brightness(1);
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+    }
+  
+  }
+
+</style>
+
+
+
+<!--version="1.0" encoding="utf-8"-->
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+version="1.1"
+baseProfile="tiny"
+width="100%"
+height=""
+viewBox="0 0 1000 1000">
+
+<g>
+
+<path class="map_layout_3_roads" d="m0 467.25l39.54-2.41 15.28-.51 24.08 1.2 24.82 4.47 35.16 9.12 35.91 12.89 39.54 16.68 17.38 8.07 8.22 3.27 14.71 4.64 8.88 4.3 18.34 12.8 13.56 15.91 7.26 7.73 8.21 6.97 12.13 6.53 10.41 3.86 22.07 5.77 26.93 5.5 25.69 3.6 23.31 2.24 22.54-2.92 18.53-6.19 17.57-8.42 39.74-18.31 38.3-21.4 46.89-26.56 13.18-7.74 16.24-13.07 16.62-17.61 13.08-13.59 11.95-8.94 11.07-9.28 18.15-19.09 18.05-14.95 28.28-22.69 29.41-22.18 9.26-5.93.2-2.75-2.3-1.81"/>
+<path class="map_layout_3_roads" d="m.28 471.29l36.78-3.18 19.3-.34 22.91 1.63 23.79 4.38 30.18 7.57 31.71 11 32.18 12.81 29.18 12.41 10.88 4.65 10.22 2.66 9.74 4.12 9.27 5.68 12.89 9.89 7.17 7.56 8.88 11.51 8.5 7.83 9.45 6.53 12.04 5.5 13.08 4.22 23.5 5.49 18.34 3.87 25.4 3.53 25.89 2.66 17.38-2.06 19.97-4.98 12.99-3.61"/>
+<path class="map_layout_3_roads" d="m487.24 587.97l22.06-10.74 23.88-11.78 24.93-13.84 25.89-14.87 33.52-18.65 14.04-8.51 13.47-10.74-.19 2.74 2.77 5.25 3.15 4.64 3.44 6.88 3.24 5.58 4.4 6.97 7.64 9.53 6.21 7.06 6.97 5.84 6.21 3.27 5.73 1.2 4.96-.17-9.74 6.1-15.23 9.86-18.82 13.15-10.89 6.97-9.17 4.38-10.31 3.44-15.09 2.06-8.03-.18-12.99-.77-12.12-1.72-14.43-3.78-20.34-6.62-8.6-2.75-10.7-1.89-10.41-.43-12.22.95-13.23 1.57z"/>
+<path class="map_layout_3_roads" d="m481.9 592.62l11.07-2.4 15.19-2.05 14.8.42 10.51 1.8 8.78 2.59 15.96 5.33 12.03 3.52 8.6 1.8 11.55 1.73 12.51.94 8.89-.17 12.89-1.89 10.99-3.01 10.98-5.07 13.09-8.6 20.44-14.35 21.39-13.58 14.23-8.51 23.02-13.93 23.21-12.89 9.65-5.68 18.62-13.75 16.33-12.55 15.76-11.09 13.56-9.19 13.76-10.75 4.11-4.73 7.25-10.65 8.41-13.16 7.07-10.57 5.06-5.76 4.97-3.7 6.01-2.74 5.35-.61 4.59 2.07 3.53 3.35 4.68 8.25 6.78 14.18 6.02 13.93"/>
+<path class="map_layout_3_roads" d="m651.04 493.18l13.09-14.7 9.36-9.71 11.27-9.28 9.08-6.88 7.92-7.57 13.85-14.35 11.65-10.66 14.43-11.34 17.85-13.85 22.36-17.87 19.38-13.59 12.9-6.96 9.74-4.21 9.56-4.64 7.92-1.9 10.7-1.19 9.36-1.81 12.32-5.25 7.93-2.74 5.92.17 4.3 2.14 4.96 5.08 2.58 4.29 2.68 6.19 1.05 5.68-1.82 6.27-3.82 5.07-4.3 3.36-11.55-13.07-6.88 3.52 1.14 1.98 3.73.17 3.63 1.29 1.43 1.81-1.52 3.09 2.29 3.09-2.49 1.81 4.11 5.67-14.61 9.2-2.29.18-4.4-6.28-4.01 2.41 4.87 6.87 2.2 1.81 3.44 1.72 6.11-2.24 9.26-5.24 2.87.6 3.34 4.81.57 5.25-3.24 4.55-7.65 4.56-5.53 4.12-4.39 5.59-6.5 9.63-7.26 12.21-6.5 9.79-8.4 9.12-3.73 3.52-10.69 8.25-13.28 8.51"/>
+<path class="map_layout_3_roads" d="m811.87 484.56l-14.62 10.91-12.03 8.94-10.22 7.65-7.17 4.64-20.81 12.04-15.2 8.68-18.52 11.35-7.83 4.81-4.49 1.21-4.69.42-3.24-.17-4.97-1.64-5.25-3.34-5.64-4.99-7.64-8.6-5.92-7.47-7.25-11.43-3.64-7.05-3.63-5.68-1.52-3.61.19-2.75.76-2.66 2.5-2.64"/>
+<path class="map_layout_3_roads" d="m817.33 481.23l-6.04 1.55-5.25.59-7.45-1.46-8.5-4.03-5.63-2.24-5.35-1.03-5.74-.17-6.97 1.29-7.36 3.01-6.11 2.92-10.41 5.84-11.74 6.19 1.04 1.63 11.76-6.53 10.5-5.84 5.83-3.01 7.25-2.58 6.5-1.12 5.45.43 4.58 1.38 5.16 2.23 8.4 3.78 8.79 1.55 5.83-1.05"/>
+<path class="map_layout_3_roads" d="m834.89 337.67l4.77 2.67 5.45 1.98 8.49-.43 7.36-1.81 8.79-3.61 8.69-3.87 4.39-.68 4.97.09 5.73 2.32 3.72 3.69 3.53 4.99 2.97 5.75 2.39 5.34 1.62 1.8 2.77.78 3.72-.26 4.97-2.93"/>
+<path class="map_layout_3_roads" d="m798.19 356.45l-10.07-1.71-20.54-5.51-23.78-7.39-20.34-6.19-10.89-3.26-21.1-5.42-13-4.73-8.5-3.52-12.32-2.15-11.94-2.06-26.26-5.76-14.14-4.3-8.12-4.64-6.21-5.59-6.2-6.88-9.55-12.97-7.84-11.7-3.72-7.3-1.72-2.06-2.58-.78-3.91-.17-.19-4.3 7.64-.43.18-1.54-2.67-5.17 6.88-1.97.48-2.06-1.72-2.13-5.16-5.5-3.82-4.13-4.01-4.38-2.68-2.92-2.57-3.61-4.97 1.54-3.63.52-2.58-2.06-2.1-3.36 2.39-.68 3.15 3.69-.86.86 1.43.26 2.68-.43 5.16-1.72 5.34-3.44-1.23-1.54-3.73-3.87.95-1.46 3.06 1.54-.86 1.04.38 1.29 2.39 2.4 5.25-3.01 4.88-2.83 2.86-2.84-4.96-4.04-2.11-2.67 2.11-1.63 1.62 1.38-1.44 1.2.86 1.37 4.68 3.62 2.49-2.5 1.62-3.18 2.49-2.49-1.96-3.63-2-4.98 1.91-1.55 1.72 1.29-2.1 1.46 1.62 3.53 1.72 3.09 3.54-2.06 3.81-3.1.67-3.01-.76-3.52-1.24-4.22-.96-2.75 1.92-1.29 2 1.81-1.81 1.98 1.33 4.12.48 2.59 2.1-2.59 3.44-2.75 3.53-2.58-.57-7.65.96-.94 1.24 1.11-1.05 1.04.67 5.84 5.63-3.18 6.21-2.58-.48-4.12-.19-2.41 1.72-2.15 1.24.95-1.91 2.06.1 1.98.48 3.44 5.15-1.21 2.77-1.37 3.73-2.41-.19-5.67.28-2.84.95-1.2 1.25.68-1.34 1.72.09 2.5.1 5.58-4.11 2.41-3.14 1.46-5.35 1.29-6.79 2.84-5.82 3.17-4.4 3.1-4.77 4.21-1.53 2.15-.29 2.84-4.39 3.35-4.68 3.01-2.49 2.67-.85 2.4-2.01 2.41-2.1 2.15 3.73 2.92 5.34 3.87 3.92 1.8 2.58-1.54 3.25 3.01-1.24 1.29-3.44-1.29-3.35 4.38-3.72 6.1-3.63 6.28-1.25 4.55-.09 3.79 3.53 5.67-1.52 1.12 1.81 5.24-6.49 1.38-1.34 3.44.57 2.83"/>
+<path class="map_layout_3_roads" d="m549.01 213.73l5.44-3.52 4.78-2.67 4.77-2.75 3.35-2.57 4.97 3.61 4.58 3.78 3.53 1.54-2.67 2.84-2.87 4.73-2.67 4.56-2.1 4.12-1.24 3.61-.57 4.04-2.3-2.5-3.91-3.95-3.63-3.69-3.54-3.44-3.05-3.53-2.87-4.21z"/>
+<path class="map_layout_3_roads" d="m566.88 256.49l2.96 5.38 4.2 6.1 5.06 7.05 5.44 7.57 5.07 6.44 5.92 5.68 4.77 4.29 6.31 3.19 12.6 3.86 15.57 3.87 6.69 1.55 10.7 2.06 8.49 1.2 8.7 1.64 5.15 1.46 13.95 5.42 6.4 2.15 16.14 4.38 9.74 2.74 9.65 2.59 13.18 4.29 15.67 4.99 12.8 3.78 12.69 3.53 11.18 2.4 7.16.87 6.02.08 5.54-1.29 10.61-4.9 5.44-2.84 2.01-2.23.47-2.58-1.05-2.5-3.53-3.6-4.21-5.08-4.3-5.58-6.39-8.85-6.31-7.48-5.82-3.96-3.44-2.84-1.82-2.57 3.83-1.98-7.17-13.32 1.24-.52-2.86-5.41-3.44-8.69-2.39-9.2-1.14-7.65-2.3-10.22-1.84-5.17-4.1-9.29-.58-11.43.86-12.98 2-11.09 3.83-6.53 5.63-5.08 5.63-2.4 10.32-6.28 7.83-7.22 7.55-9.03 6.97-6.27 5.44-4.82 2.97-1.63 35.24-1.2"/>
+<path class="map_layout_3_roads" d="m834.89 337.67l-7.87-9.27-9.36-13.24-3.43-6.7-1.34-9.46-2.1-6.19-5.93-8.24-2.86-4.48-5.54 1.89-3.25-5.5-4.11-10.05-2.86-14.36-1.34-7.82-2.2-6.28-3.24-7.74-1.63-6.1-.28-10.57.76-9.12 1.62-10.05 2.49-5.76 4.2-4.47 6.02-3.52 6.68-3.53 7.36-4.9 7.45-6.62 7.35-8.59 5.07-4.64 4.38-4.65 4.59-2.75 34.29-1.37"/>
+<path class="map_layout_3_roads" d="m919.22 353.49l7.16-5.1 17.1-12.55 18.62-13.06 10.51-7.31 9.36-5.68 8.41-5.67 4.1-3.44 2.77-3.69"/>
+<path class="map_layout_3_roads" d="m901.58 369.05l4.58-4.39 8.79-5.85 13.28-8.94 18.33-13.06 9.75-6.79 4.87-.95 3.62.78 4.11 3.09 2.01 3.44.96 5.76 2.1 14.18 1.24 9.29-.1 4.21-2.57 5.84-3.64 5.16-4.96 3.44-12.23 4.04-6.59 3.18-7.35 5.5-5.26 5.5-4.39 4.65-3.34 2.06-3.54.6-6.4-.86-4.87-1.55-5.35-2.49-3.05-2.32-4.58-6.53-3.07-5.85-1.43-4.22.19-4.63 2.3-4.64 3.25-4.48 3.34-3.17z"/>
+<path class="map_layout_3_roads" d="m961.56 326.24l6.59-4.65 7.17-4.81-2.21 4.21-1.43 4.21-.76 3.7 0 2.83-2.87-2.57-3.34-1.89-3.15-1.03z"/>
+<path class="map_layout_3_roads" d="m906.14 409.79l4.58 2.06 5.64 1.38-2.68 2.66-1.81 3.35-2-4.12-3.73-5.33z"/>
+<path class="map_layout_3_roads" d="m923.52 445.2l-3.25-8.16-4.01-9.03-1.72-3.95 1.34-4.73 2.58-3.79 2.77-2.31 4.4-.43 7.15-.43 4.5-.61-2.58 3.53-2.59 6.1-2.76 7.57-2.96 6.7-2.87 9.54z"/>
+<path class="map_layout_3_roads" d="m1000 297.7l-2.77 4.21-5.45 4.81-9.36 5.93-4.48 4.39-2.58 5.16-1.91 5.67-.67 5.42.57 6.36 1.43 10.14 1.43 9.97.86 7.05-.28 3.87-1.15 3.69-.28 2.15.85 2.24 3.07 1.63 4.1-.08 3.34.76 3.63 2.5 2.87 4.56 2.48 6.01.38 3.7-1.34 4.56-4.48 4.21-1.43 2.4-1.06 4.13-4.1 3.27-2.87.77-4.77.69-7.27 3.69-5.72 2.32-2.87.26-3.15-.94-3.44-2.49-3.53-4.22-1.91-2.32-2.58-1.97-3.15-.35-3.34 1.64-3.16 4.55-1.82 3.96-3.91 9.19-2.96 8.17-1.62 5.16-.48 2.57.66 3.19"/>
+<path class="map_layout_3_roads" d="m923.54 451.15l4.63 11.72 10.22 24.93 15.94 39.02 10.51 23.9 16.62 31.37 6.02 10.92 4.59 9.88 1.04 6.02-.57 6.11-3.15 6.61-4.59 5.16-6.3 3.18-17.54 4.76-21.4 6.19-70.2 20.89-53.97 17.1-132.76 41.6-236.1 75.47-29.23 10.14-53.1 16.51-31.33 12.37-22.35 11.87-22.92 12.03-4.11 1.55-5.73.86-7.07-1.72-7.07-5.59-6.78-11.26-5.25-11.34-7.84-11.61-9.35-9.63-9.08-5.15-5.92-1.98-6.88-3.86-7.54-5.85-3.06-3.53-1.43-4.29 1.62-5.16 3.92-8.08.38-3.61-.38-2.75-2.58-2.07-5.06 0-3.15 1.64-.96 4.47.48 5.5 2.1 5.84.29 4.05-3.53 2.23-7.94-.09-8.4.95-4.58-.09-3.73-2.06-4.68-6.7-4.01-5.16-5.64-6.88-6.68-13.32-5.16-10.06-7.16-13.23-4.97-8.86-4.11-12.54-1.34-7.92-.76-6.95-1.24-11.96-1.72-6.96-3.15-7.82-2.96-4.99-3.92-3.95-2.19-6.61-4.59-4.14-7.64-1.28-6.78 2.49-4.39 3.87.28 4.3 3.83 3.44 5.82-.61 8.31-1.37 4.49 2.06 4.77 4.13 3.92 6.44 2.29 6.45 1.53 6.44 0 3.44-2.1 2.15-2.77 0-6.12-2.4-2.86-2.84-2.68-3.95-4.2-3.01-4.2.69-10.98 3.52 1.05 5.59 1.72 4.2 9.55-1.28 4.11-1.29 4.68.26 5.82 1.63 6.02 2.32 3.34 1.8.77 2.84.66 7.31 2.1 7.47.86 3.27-1.62 1.38-2.96-.26-6.68-1.89-3.35-3.79-3.53-2.22-5.16-1.29-4.11.51-4.49 2.06-5.44 1.98 2.58 6.27 2.58 3.7 5.25-1.21 11.27-3.34 4.01.34 7.45 2.06 4.49 2.23 2.58 1.81 9.17 15.91-.19 2.4-2.58.86-6.88-.09-2.39-1.71-4.96-4.22-3.82-1.46-4.58.78-3.25 2.66-5.16 3.44-.38 1.89 1.43 4.21 1.15 2.06 1.9.69 6.59-2.32 6.97-1.72 5.93-.69 5.54-.17 5.63-.08 2.77.68 1.54 2.84 2.1 4.55 2.95 6.02 2.1 4.3-1.52 2.32-5.35.94-1.43-2.66-1.82-3.18-5.45-1.03-5.53 1.63-4.39 2.24-6.88 4.29-1.82 2.41.96 3.61 3.63 2.24 4.58.25 5.25-2.57 6.69-2.84 5.93-1.55 5.63-.43 5.44 1.46 4.3 4.13 4.4 6.01 3.34 4.82.47 5.84-1.71 1.29-7.17 1.9-5.92.34-3.44-1.98-2.67-3.7-2.3-.85-6.11-.35-2.96 1.72-1.52 2.06-4.21 2.32-2.2 2.33-.57 2.4.48 2.67 2.39 2.4 3.91.26 7.93-2.23 7.45-2.93 5.44-1.29 6.5-.94 4.39-.52 1.62 1.46-.09 3.79-.38 6.88-.1 7.56-.29 2.06-2.95 1.12-2.97-.94-5.82-.52-5.54-.77-4.01 3.43-3.92 2.15-3.63 3.44.48 2.75 3.06 2.66 2.86.61 4.59-1.73 7.64-3.09 6.3-2.57 3.91-.95 1.92 1.03.95 3.7 1.43 5.15.87 4.82-4.02 1.46-7.74 2.75-2.77 2.06-1.62 2.06-3.44 1.55-3.25 2.5 8.7 10.82 21.01-15.98-1.53-3.01-1.05-4.3-2.96-6.36-1.14-5.76-1.34-8.34-.39-6.62.1-9.45.67-6.28.86-3.86 3.92-2.5"/>
+<path class="map_layout_3_roads" d="m199.44 781.37l-1.72-5.76-1.15-4.9 1.15-3.69 2.87-.86 3.15 1.03.57 3.18-1.72 4.64-3.15 6.36z"/>
+<path class="map_layout_3_roads" d="m174.42 791.08l8.21-.94 7.55-.6 5.72.6 4.3 2.06 5.26 4.21 4.01 3.96 6.49 3.52 6.02 2.58 8.98 4.81 7.07 6.88 7.54 9.71 5.63 10.06 6.5 12.55 3.72 5.85 5.45 4.46 6.4 3.19 7.74.59 8.5-2.32 13.09-7.73 24.73-13.06 31.52-13.24 34.96-11.18 175.74-56.9 154.35-48.13 173.07-54.33 70.87-21.83 16.04-5.33 7.45-6.19 4.01-7.56 1.53-7.92-2.87-8.93-7.83-14.62-18.52-36.1-11.28-26.3-14.9-35.76-10.31-24.58-5.38-12.28"/>
+
+         <text class="map_layout_3_main-road_text" id="" x="10" y="490">⇦ D707</text>
+
+
+</g>
+
+<g>
+
+<path class="map_layout_3_villas" id="map_layout_3_villa_1" d="m879.47 367.34l-5.44-.17-13.38 7.82 3.44 4.82 2.49-1.29 3.15 3.52-.57.6 4.58 6.45 12.52-7.13-4.02-5.07-.76-1.38 2.48-1.55-4.49-6.62z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_2" d="m861.99 388.75l-14.04 8.42 4.4 5.42 14.36-7.92-4.72-5.92z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_3" d="m855.97 379.12l-3.05 1.46 2.77 3.96 2.86-1.63-2.58-3.79z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_4" d="m947 395.28l2.19 3.52-2.58 1.3-1.62-2.15-3.53 1.88 5.15 7.31 8.41-5.07-2.86-4.29 2.86-1.56-2.58-4.29-5.44 3.35z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_5" d="m961.61 409.55l1.34 1.81 7.07-3.7-1.63-2.06-6.78 3.95z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_6" d="m959.7 410.92l-2.39 1.29 5.83 9.2 2.58-1.54-6.02-8.95z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_7" d="m966.68 416.94l1.14 2.24 7.16-4.04-1.33-2.15-6.97 3.95z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_8" d="m982.39 356.34l.1 4.99 4.2 0 .38 2.23 7.93-.43-.09-2.23-5.93.17 0-4.12-6.59-.61z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_9" d="m732.05 486.57l-4.48 3.01 2.57 3.61 1.91-1.29-1.04-1.63 2.86-1.98-1.82-1.72z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_10" d="m789.08 285.09l6.49 12.8 3.73-1.54-6.35-12.9-3.87 1.64z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_11" d="m851.54 136.11l1.05 5.68 6.21-.26-.28-1.12 2.19-.51-1.05-4.47-8.12.68z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_12" d="m848.2 151.76l5.92-.6-.29-2.66 1.62-.27-.47-2.66-7.83.77 1.05 5.42z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_13" d="m536.93 210.18l3.15 3.69 2.96-2.28-3.44-3.61-2.67 2.2z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_14" d="m549.25 202.3l5.72 2.15 1.06-2.66-5.26-2.41-1.52 2.92z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_15" d="m564.72 188.55l-2.58 2.66 4.39 3.27 2.58-2.92-4.39-3.01z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_16" d="m583.03 170.44l4.9 3.32 2.67-2.4-4.49-3.53-3.08 2.61z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_17" d="m573.09 181.02l4.69 3.17 2.2-2.49-4.4-3.53-2.49 2.85z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_18" d="m594.49 164.43l5.26 3.17 2.29-2.84-4.58-3.43-2.97 3.1z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_19" d="m608.24 157.98l5.05 3.43 2.29-2.66-5.25-3.35-2.09 2.58z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_20" d="m620.84 151.71l6.21 2.14 1.14-3.44-5.25-2.24-2.1 3.54z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_21" d="m587.04 211.71l8.39-7.57-6.88-4.99-7.16 7.13 5.65 5.43z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_22" d="m160.63 849.13l-2.49 1.73 2.3 3.17 2.77-2.15-2.58-2.75z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_23" d="m149.17 823.61l-2.96 1.54 1.71 2.84 3.16-1.38-1.91-3z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_24" d="m138.66 795.34l-2.87 1.72 1.91 3.35 3.16-1.8-2.2-3.27z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_25" d="m128.06 769.28l-2.58 1.38 1.81 3.35 3.06-1.71-2.29-3.02z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_26" d="m116.22 741.52l-2.58 1.63 2 2.92 2.77-1.29-2.19-3.26z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_27" d="m102.46 713.58l-3.06 1.29 1.34 3.27 3.35-1.2-1.63-3.36z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_28" d="m98.92 683.33l-3.24.68.76 3.79 3.44-.52-.96-3.95z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_29" d="m98.83 652.55l-2.96.87 1.43 3.52 3.35-.77-1.82-3.62z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_30" d="m730.22 422.57l-6.41 2.84 1.43 2.75-1.43.51 2.39 4.3 8.02-3.44-4-6.96z"/>
+<path class="map_layout_3_villas" id="map_layout_3_villa_31" d="m829.35 353.81l-2.48 1.46 2.67 2.92 2.49-1.72 2.58.08 2.1-1.37.67-1.89-.67-2.24-1.72-1.2-3.06.09-1.81 1.63-.77 2.24z"/>
+
+</g>
+
+</svg>
