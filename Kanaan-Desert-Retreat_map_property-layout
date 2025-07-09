@@ -254,4 +254,40 @@ viewBox="0 0 1000 1000">
 
 </g>
 
+<g>
+
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_1" cx="874.7" cy="378.3" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_2" cx="858.3" cy="394.1" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_3" cx="855.6" cy="380.8" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_4" cx="948.7" cy="400.3" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_5" cx="966.9" cy="407.4" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_6" cx="960.7" cy="415.8" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_7" cx="971.4" cy="415.4" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_8" cx="988.2" cy="360.4" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_9" cx="729.7" cy="489" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_10" cx="794.4" cy="291.6" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_11" cx="854.7" cy="138.2" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_12" cx="850.3" cy="149.3" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_13" cx="539.9" cy="210.1" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_14" cx="551.9" cy="201.6" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_15" cx="564.8" cy="191.4" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_16" cx="586.1" cy="171" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_17" cx="575.9" cy="181.6" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_18" cx="598" cy="163.9" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_19" cx="611.8" cy="158.2" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_20" cx="624.2" cy="150.6" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_21" cx="587.8" cy="204.7" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_22" cx="160" cy="851.2" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_23" cx="148.4" cy="825.5" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_24" cx="138.2" cy="798" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_25" cx="127.6" cy="771.8" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_26" cx="115.6" cy="743.9" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_27" cx="101.4" cy="716" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_28" cx="97.9" cy="684.9" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_29" cx="98.3" cy="653.9" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_30" cx="728.4" cy="427.8" rx="18" ry="17.5"/>
+<ellipse class="map_layout_3_villa_circle" id="map_layout_3_villa_circle_31" cx="832.6" cy="353.3" rx="18" ry="17.5"/>
+
+</g>
+
 </svg>
