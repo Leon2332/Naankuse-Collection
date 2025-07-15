@@ -14,9 +14,15 @@ CLIENT: https://www.naankusecollection.com/
     fill: none;
   }
 
-  .map_layout_6_gate_text {
+  .map_layout_6_volunteer_villa_text {
     font-family: century-gothic;
-    font-size: 14px;
+    font-size: 18px;
+    fill: none;
+  }
+
+  .map_layout_6_main-road_text {
+    font-family: century-gothic;
+    font-size: 13px;
     fill: #434462;
   }
 
@@ -26,13 +32,32 @@ CLIENT: https://www.naankusecollection.com/
     fill: none;
   }
 
-  .map_layout_6_roads {
+  .map_layout_6_volunteer_villa_circle {
+    stroke-width: 1.5;
+    stroke: none;
+    fill: none;
+  }
+
+  .map_layout_6_runway {
+    stoke-width: 1;
+    stroke: #434462;
+    fill: #43446260;
+  }
+
+ .map_layout_6_roads {
     stoke-width: 1;
     stroke: #434462;
     fill: none;
   }
 
+
   .map_layout_6_villas {
+    stroke-width: 1;
+    stroke: #434462;
+    fill: #43446250;
+  }
+
+.map_layout_6_volunteer_villas {
     stroke-width: 1;
     stroke: #434462;
     fill: #43446250;
@@ -42,13 +67,45 @@ CLIENT: https://www.naankusecollection.com/
     fill: #434462;
   }
 
+.map_layout_6_volunteer_villas:hover {
+    fill: #434462;
+  }
+
   .map_layout_6_villa_title {
+    color: #434462;
+  }
+
+  .map_layout_6_volunteer_villa_title {
     color: #434462;
   }
 
   .map_layout_6_villa_title:hover {
     color: #ab292e;
   }
+
+  .map_layout_6_volunteer_villa_title:hover {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_6_volunteer_villa_1:hover) :is(#map_layout_6_volunteer_villa_title_1),
+  :has(#map_layout_6_volunteer_villa_2:hover) :is(#map_layout_6_volunteer_villa_title_2),
+  :has(#map_layout_6_volunteer_villa_3:hover) :is(#map_layout_6_volunteer_villa_title_3),
+  :has(#map_layout_6_volunteer_villa_4:hover) :is(#map_layout_6_volunteer_villa_title_4),
+  :has(#map_layout_6_volunteer_villa_5:hover) :is(#map_layout_6_volunteer_villa_title_5),
+  :has(#map_layout_6_volunteer_villa_6:hover) :is(#map_layout_6_volunteer_villa_title_6),
+  :has(#map_layout_6_volunteer_villa_7:hover) :is(#map_layout_6_volunteer_villa_title_7),
+  :has(#map_layout_6_volunteer_villa_8:hover) :is(#map_layout_6_volunteer_villa_title_8),
+  :has(#map_layout_6_volunteer_villa_9:hover) :is(#map_layout_6_volunteer_villa_title_9),
+  :has(#map_layout_6_volunteer_villa_10:hover) :is(#map_layout_6_volunteer_villa_title_10),
+  :has(#map_layout_6_volunteer_villa_11:hover) :is(#map_layout_6_volunteer_villa_title_11),
+  :has(#map_layout_6_volunteer_villa_12:hover) :is(#map_layout_6_volunteer_villa_title_12),
+  :has(#map_layout_6_volunteer_villa_13:hover) :is(#map_layout_6_volunteer_villa_title_13),
+  :has(#map_layout_6_volunteer_villa_14:hover) :is(#map_layout_6_volunteer_villa_title_14),
+  :has(#map_layout_6_volunteer_villa_15:hover) :is(#map_layout_6_volunteer_villa_title_15)
+    {
+    color: #ab292e;
+  }
+
 
   :has(#map_layout_6_villa_1:hover) :is(#map_layout_6_villa_title_1),
   :has(#map_layout_6_villa_2:hover) :is(#map_layout_6_villa_title_2),
@@ -74,10 +131,47 @@ CLIENT: https://www.naankusecollection.com/
   :has(#map_layout_6_villa_22:hover) :is(#map_layout_6_villa_title_22),
   :has(#map_layout_6_villa_23:hover) :is(#map_layout_6_villa_title_23),
   :has(#map_layout_6_villa_24:hover) :is(#map_layout_6_villa_title_24),
-  :has(#map_layout_6_villa_25:hover) :is(#map_layout_6_villa_title_25)
+  :has(#map_layout_6_villa_25:hover) :is(#map_layout_6_villa_title_25),
+  :has(#map_layout_6_villa_26:hover) :is(#map_layout_6_villa_title_26),
+  :has(#map_layout_6_villa_27:hover) :is(#map_layout_6_villa_title_27),
+  :has(#map_layout_6_villa_28:hover) :is(#map_layout_6_villa_title_28),
+  :has(#map_layout_6_villa_29:hover) :is(#map_layout_6_villa_title_29),
+  :has(#map_layout_6_villa_30:hover) :is(#map_layout_6_villa_title_30),
+  :has(#map_layout_6_villa_31:hover) :is(#map_layout_6_villa_title_31),
+  :has(#map_layout_6_villa_32:hover) :is(#map_layout_6_villa_title_32),
+  :has(#map_layout_6_villa_33:hover) :is(#map_layout_6_villa_title_33),
+  :has(#map_layout_6_villa_34:hover) :is(#map_layout_6_villa_title_34),
+  :has(#map_layout_6_villa_35:hover) :is(#map_layout_6_villa_title_35),
+  :has(#map_layout_6_villa_36:hover) :is(#map_layout_6_villa_title_36),
+  :has(#map_layout_6_villa_37:hover) :is(#map_layout_6_villa_title_37),
+  :has(#map_layout_6_villa_38:hover) :is(#map_layout_6_villa_title_38),
+  :has(#map_layout_6_villa_39:hover) :is(#map_layout_6_villa_title_39),
+  :has(#map_layout_6_villa_40:hover) :is(#map_layout_6_villa_title_40),
+  :has(#map_layout_6_villa_41:hover) :is(#map_layout_6_villa_title_41)
     {
     color: #ab292e;
   }
+
+
+  :has(#map_layout_6_volunteer_villa_title_1:hover) :is(#map_layout_6_volunteer_villa_circle_1, #map_layout_6_volunteer_villa_title_1),
+  :has(#map_layout_6_volunteer_villa_title_2:hover) :is(#map_layout_6_volunteer_villa_circle_2, #map_layout_6_volunteer_villa_title_2),
+  :has(#map_layout_6_volunteer_villa_title_3:hover) :is(#map_layout_6_volunteer_villa_circle_3, #map_layout_6_volunteer_villa_title_3),
+  :has(#map_layout_6_volunteer_villa_title_4:hover) :is(#map_layout_6_volunteer_villa_circle_4, #map_layout_6_volunteer_villa_title_4),
+  :has(#map_layout_6_volunteer_villa_title_5:hover) :is(#map_layout_6_volunteer_villa_circle_5, #map_layout_6_volunteer_villa_title_5),
+  :has(#map_layout_6_volunteer_villa_title_6:hover) :is(#map_layout_6_volunteer_villa_circle_6, #map_layout_6_volunteer_villa_title_6),
+  :has(#map_layout_6_volunteer_villa_title_7:hover) :is(#map_layout_6_volunteer_villa_circle_7, #map_layout_6_volunteer_villa_title_7),
+  :has(#map_layout_6_volunteer_villa_title_8:hover) :is(#map_layout_6_volunteer_villa_circle_8, #map_layout_6_volunteer_villa_title_8),
+  :has(#map_layout_6_volunteer_villa_title_9:hover) :is(#map_layout_6_volunteer_villa_circle_9, #map_layout_6_volunteer_villa_title_9),
+  :has(#map_layout_6_volunteer_villa_title_10:hover) :is(#map_layout_6_volunteer_villa_circle_10, #map_layout_6_volunteer_villa_title_10),
+  :has(#map_layout_6_volunteer_villa_title_11:hover) :is(#map_layout_6_volunteer_villa_circle_11, #map_layout_6_volunteer_villa_title_11),
+  :has(#map_layout_6_volunteer_villa_title_12:hover) :is(#map_layout_6_volunteer_villa_circle_12, #map_layout_6_volunteer_villa_title_12),
+  :has(#map_layout_6_volunteer_villa_title_13:hover) :is(#map_layout_6_volunteer_villa_circle_13, #map_layout_6_volunteer_villa_title_13),
+  :has(#map_layout_6_volunteer_villa_title_14:hover) :is(#map_layout_6_volunteer_villa_circle_14, #map_layout_6_volunteer_villa_title_14),
+  :has(#map_layout_6_volunteer_villa_title_15:hover) :is(#map_layout_6_volunteer_villa_circle_15, #map_layout_6_volunteer_villa_title_15)
+    {
+    stroke: #ab292e;
+  }
+
 
   :has(#map_layout_6_villa_title_1:hover) :is(#map_layout_6_villa_circle_1, #map_layout_6_villa_title_1),
   :has(#map_layout_6_villa_title_2:hover) :is(#map_layout_6_villa_circle_2, #map_layout_6_villa_title_2),
@@ -103,10 +197,46 @@ CLIENT: https://www.naankusecollection.com/
   :has(#map_layout_6_villa_title_22:hover) :is(#map_layout_6_villa_circle_22, #map_layout_6_villa_title_22),
   :has(#map_layout_6_villa_title_23:hover) :is(#map_layout_6_villa_circle_23, #map_layout_6_villa_title_23),
   :has(#map_layout_6_villa_title_24:hover) :is(#map_layout_6_villa_circle_24, #map_layout_6_villa_title_24),
-  :has(#map_layout_6_villa_title_25:hover) :is(#map_layout_6_villa_circle_25, #map_layout_6_villa_title_25)
+  :has(#map_layout_6_villa_title_25:hover) :is(#map_layout_6_villa_circle_25, #map_layout_6_villa_title_25),
+  :has(#map_layout_6_villa_title_26:hover) :is(#map_layout_6_villa_circle_26, #map_layout_6_villa_title_26),
+  :has(#map_layout_6_villa_title_27:hover) :is(#map_layout_6_villa_circle_27, #map_layout_6_villa_title_27),
+  :has(#map_layout_6_villa_title_28:hover) :is(#map_layout_6_villa_circle_28, #map_layout_6_villa_title_28),
+  :has(#map_layout_6_villa_title_29:hover) :is(#map_layout_6_villa_circle_29, #map_layout_6_villa_title_29),
+  :has(#map_layout_6_villa_title_30:hover) :is(#map_layout_6_villa_circle_30, #map_layout_6_villa_title_30),
+  :has(#map_layout_6_villa_title_31:hover) :is(#map_layout_6_villa_circle_31, #map_layout_6_villa_title_31),
+  :has(#map_layout_6_villa_title_32:hover) :is(#map_layout_6_villa_circle_32, #map_layout_6_villa_title_32),
+  :has(#map_layout_6_villa_title_33:hover) :is(#map_layout_6_villa_circle_33, #map_layout_6_villa_title_33),
+  :has(#map_layout_6_villa_title_34:hover) :is(#map_layout_6_villa_circle_34, #map_layout_6_villa_title_34),
+  :has(#map_layout_6_villa_title_35:hover) :is(#map_layout_6_villa_circle_35, #map_layout_6_villa_title_35),
+  :has(#map_layout_6_villa_title_36:hover) :is(#map_layout_6_villa_circle_36, #map_layout_6_villa_title_36),
+  :has(#map_layout_6_villa_title_37:hover) :is(#map_layout_6_villa_circle_37, #map_layout_6_villa_title_37),
+  :has(#map_layout_6_villa_title_38:hover) :is(#map_layout_6_villa_circle_38, #map_layout_6_villa_title_38),
+  :has(#map_layout_6_villa_title_39:hover) :is(#map_layout_6_villa_circle_39, #map_layout_6_villa_title_39),
+  :has(#map_layout_6_villa_title_40:hover) :is(#map_layout_6_villa_circle_40, #map_layout_6_villa_title_40),
+  :has(#map_layout_6_villa_title_41:hover) :is(#map_layout_6_villa_circle_41, #map_layout_6_villa_title_41)
     {
     stroke: #ab292e;
   }
+
+  :has(#map_layout_6_volunteer_villa_title_1:hover) :is(#map_layout_6_volunteer_villa_1),
+  :has(#map_layout_6_volunteer_villa_title_2:hover) :is(#map_layout_6_volunteer_villa_2),
+  :has(#map_layout_6_volunteer_villa_title_3:hover) :is(#map_layout_6_volunteer_villa_3),
+  :has(#map_layout_6_volunteer_villa_title_4:hover) :is(#map_layout_6_volunteer_villa_4),
+  :has(#map_layout_6_volunteer_villa_title_5:hover) :is(#map_layout_6_volunteer_villa_5),
+  :has(#map_layout_6_volunteer_villa_title_6:hover) :is(#map_layout_6_volunteer_villa_6),
+  :has(#map_layout_6_volunteer_villa_title_7:hover) :is(#map_layout_6_volunteer_villa_7),
+  :has(#map_layout_6_volunteer_villa_title_8:hover) :is(#map_layout_6_volunteer_villa_8),
+  :has(#map_layout_6_volunteer_villa_title_9:hover) :is(#map_layout_6_volunteer_villa_9),
+  :has(#map_layout_6_volunteer_villa_title_10:hover) :is(#map_layout_6_volunteer_villa_10),
+  :has(#map_layout_6_volunteer_villa_title_11:hover) :is(#map_layout_6_volunteer_villa_11),
+  :has(#map_layout_6_volunteer_villa_title_12:hover) :is(#map_layout_6_volunteer_villa_12),
+  :has(#map_layout_6_volunteer_villa_title_13:hover) :is(#map_layout_6_volunteer_villa_13),
+  :has(#map_layout_6_volunteer_villa_title_14:hover) :is(#map_layout_6_volunteer_villa_14),
+  :has(#map_layout_6_volunteer_villa_title_15:hover) :is(#map_layout_6_volunteer_villa_15)
+    {
+    fill: #434462;
+  }
+
 
   :has(#map_layout_6_villa_title_1:hover) :is(#map_layout_6_villa_1),
   :has(#map_layout_6_villa_title_2:hover) :is(#map_layout_6_villa_2),
@@ -132,10 +262,27 @@ CLIENT: https://www.naankusecollection.com/
   :has(#map_layout_6_villa_title_22:hover) :is(#map_layout_6_villa_22),
   :has(#map_layout_6_villa_title_23:hover) :is(#map_layout_6_villa_23),
   :has(#map_layout_6_villa_title_24:hover) :is(#map_layout_6_villa_24),
-  :has(#map_layout_6_villa_title_25:hover) :is(#map_layout_6_villa_25)
+  :has(#map_layout_6_villa_title_25:hover) :is(#map_layout_6_villa_25),
+  :has(#map_layout_6_villa_title_26:hover) :is(#map_layout_6_villa_26),
+  :has(#map_layout_6_villa_title_27:hover) :is(#map_layout_6_villa_27),
+  :has(#map_layout_6_villa_title_28:hover) :is(#map_layout_6_villa_28),
+  :has(#map_layout_6_villa_title_29:hover) :is(#map_layout_6_villa_29),
+  :has(#map_layout_6_villa_title_30:hover) :is(#map_layout_6_villa_30),
+  :has(#map_layout_6_villa_title_31:hover) :is(#map_layout_6_villa_31),
+  :has(#map_layout_6_villa_title_32:hover) :is(#map_layout_6_villa_32),
+  :has(#map_layout_6_villa_title_33:hover) :is(#map_layout_6_villa_33),
+  :has(#map_layout_6_villa_title_34:hover) :is(#map_layout_6_villa_34),
+  :has(#map_layout_6_villa_title_35:hover) :is(#map_layout_6_villa_35),
+  :has(#map_layout_6_villa_title_36:hover) :is(#map_layout_6_villa_36),
+  :has(#map_layout_6_villa_title_37:hover) :is(#map_layout_6_villa_37),
+  :has(#map_layout_6_villa_title_38:hover) :is(#map_layout_6_villa_38),
+  :has(#map_layout_6_villa_title_39:hover) :is(#map_layout_6_villa_39),
+  :has(#map_layout_6_villa_title_40:hover) :is(#map_layout_6_villa_40),
+  :has(#map_layout_6_villa_title_41:hover) :is(#map_layout_6_villa_41)
     {
     fill: #434462;
   }
+
 
 @media (min-width: 993px) {
   
@@ -166,14 +313,14 @@ CLIENT: https://www.naankusecollection.com/
   xmlns="http://www.w3.org/2000/svg"
   version="1.1"
   baseProfile="tiny"
-  width="1000"
-  height="1000"
+  width="100%"
+  height=""
   viewBox="0 0 1000 1000">
   
   
             <!-- RUNWAY -->
     
-    <path class="" id="" d="m485.21 589.7l-218.82-555.46-.94-4.36-1.41-3.74-2.08-1.44-3.23-.43-2.48.68-1.68 1.19-.4 3.49 1.14 1.87 4.9 4.68 221.91 556.45 3.76-1.37-.67-1.56z"/>
+    <path class="map_layout_6_runway" d="m485.21 589.7l-218.82-555.46-.94-4.36-1.41-3.74-2.08-1.44-3.23-.43-2.48.68-1.68 1.19-.4 3.49 1.14 1.87 4.9 4.68 221.91 556.45 3.76-1.37-.67-1.56z"/>
     
 
     
@@ -216,71 +363,72 @@ CLIENT: https://www.naankusecollection.com/
       <path class="map_layout_6_roads" d="m486.2 1000l9.8-28.31 8.76-24.59 20.68-60.86 18.39-54.38 10.07-28.81 14.5-41.16 9.89-29.93"/>
       <path class="map_layout_6_roads" d="m576.23 731.8l-1.47 5.58-12.29 35.04-16.11 45.4-22.63 65.67-17.11 50.64-14.71 41.97 4.7-23.07.61-11.29-1.14-8.55-9.67-31.93-4.56-18.77-4.64-16.34-1.34-4.17-2.95-8.42-2.42-6.74-8.93-29.93-5.3-19.34-5.51-20.7-6.84-22.51-5.24-20.95-2.42-9.99-2.61-9.97-3.64-10.72"/>
     
-  
+            <text class="map_layout_6_main-road_text" id="" x="940" y="-450" text-anchor="middle" transform="rotate(90)">MAIN ROAD (C44) ➡</text>
+
     
             <!-- VOLUNTEER VILLAGE -->
 
-      <path class="" id="" d="m425.63 325.04l.81 4.05.84-.25 1.36 5.24 4.57-.88-.93-5.11-.87-3.87-5.78.82z"/>
-      <path d="m447.45 340.38l-.06 2.5 2.41.24.07-2.49-2.42-.25z"/>
-      <path d="m462.9 335.84l.67 2.37 2.95-.75-.74-2.43-2.88.81z"/>
-      <path d="m472.96 330.16l-.13 2.68 2.35.19.2-2.56-2.42-.31z"/>
-      <path d="m456.3 346.44l.07 2.81 3.22-.19-.13-2.69-3.16.07z"/>
-      <path d="m468.05 347.69l0 2.43 2.62.25.07-2.81-2.69.13z"/>
-      <path d="m477.79 350.93l.13 2.49 2.69.13 0-2.56-2.82-.06z"/>
-      <path d="m483.02 364.65l.74 2.37 2.75-.56-.67-2.44-2.82.63z"/>
-      <path d="m504.05 376.45l.47 2.5 3.09-.19-.2-2.56-3.36.25z"/>
-      <path d="m471.9 387.11l0 2.18 2.48.12 0-2.3-2.48 0z"/>
-      <path d="m458.41 363.34l.46 2.25 2.62-.19-.27-2.43-2.81.37z"/>
-      <path d="m469.14 357.42l-.47 2.5 3.36.37.14-2.37-3.03-.5z"/>
-      <path d="m472.57 368.65l.8 2.18 2.69-.69-.74-2.18-2.75.69z"/>
-      <path d="m428.2 364.97l.6 2.3 2.41-.87-.8-2.12-2.21.69z"/>
-      <path d="m562.86 288.69l-1.21 2.93 5.91 2.44 1.41-3.5-6.11-1.87z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_1" d="m425.63 325.04l.81 4.05.84-.25 1.36 5.24 4.57-.88-.93-5.11-.87-3.87-5.78.82z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_2" d="m447.45 340.38l-.06 2.5 2.41.24.07-2.49-2.42-.25z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_3" d="m462.9 335.84l.67 2.37 2.95-.75-.74-2.43-2.88.81z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_4" d="m472.96 330.16l-.13 2.68 2.35.19.2-2.56-2.42-.31z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_5" d="m456.3 346.44l.07 2.81 3.22-.19-.13-2.69-3.16.07z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_6" d="m468.05 347.69l0 2.43 2.62.25.07-2.81-2.69.13z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_7" d="m477.79 350.93l.13 2.49 2.69.13 0-2.56-2.82-.06z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_8" d="m483.02 364.65l.74 2.37 2.75-.56-.67-2.44-2.82.63z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_9" d="m504.05 376.45l.47 2.5 3.09-.19-.2-2.56-3.36.25z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_10" d="m471.9 387.11l0 2.18 2.48.12 0-2.3-2.48 0z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_11" d="m458.41 363.34l.46 2.25 2.62-.19-.27-2.43-2.81.37z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_12" d="m469.14 357.42l-.47 2.5 3.36.37.14-2.37-3.03-.5z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_13" d="m472.57 368.65l.8 2.18 2.69-.69-.74-2.18-2.75.69z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_14" d="m428.2 364.97l.6 2.3 2.41-.87-.8-2.12-2.21.69z"/>
+      <path class="map_layout_6_volunteer_villas" id="map_layout_6_volunteer_villa_15" d="m562.86 288.69l-1.21 2.93 5.91 2.44 1.41-3.5-6.11-1.87z"/>
     
 
     
             <!-- UNITS -->
 
-      <path class="" id="" d="m664.77 432.07l1.07 5.12 2.68-.44-1-5.24-2.75.56z"/>
-      <path d="m677.93 430.52l.13 4.92 2.55.19 0-5.11-2.68 0z"/>
-      <path d="m690.13 426.15l-.34 4.99 2.49.06.34-4.86-2.49-.19z"/>
-      <path d="m704.83 425.02l.61 4.74 2.21-.18-.4-4.87-2.42.31z"/>
-      <path d="m718.86 426.59l-.87 4.67 2.15.19.94-4.37-2.22-.49z"/>
-      <path d="m774.92 449.6l-2.02 4.24 5.44 2.24 2.08-4.3-5.5-2.18z"/>
-      <path d="m752.83 460.14l-2.08 4.3 4.97 2.12 2.28-4.3-5.17-2.12z"/>
-      <path d="m765.24 479.36l-.47 2.99 6.31.87.54-4.05-4.5-.75-.27 1.25-1.61-.31z"/>
-      <path d="m746.37 532.76l1.34 2.3 2.15-.75-1.07-2.43-2.42.88z"/>
-      <path d="m704.35 542.92l1.14 3.74 7.18-1.43-1.07-4.8-4.1.62.14 1.12-3.29.75z"/>
-      <path d="m677.14 574.41l1.28 3.06 3.82-1.18-1.48-3.06-3.62 1.18z"/>
-      <path d="m533.28 596.19l1.47 4.81 7.39-1.5-.4-1.56 6.1-1.24-1.34-4.87-3.62.81-.61-1.12-4.9 1.12.61 2.31-4.7 1.24z"/>
-      <path d="m540.93 605.81l1.28 5.86 2.41-.43.67 2.11-10.47 2.87 1.94 6.62 8.06-1.75-.4-1.44 22.69-5.17-2.15-5.74-10.41 2.12-2.34-7.67-11.28 2.62z"/>
-      <path d="m556.64 623.83l-3.29.88 1.48 4.73-8.13 1.87 1.95 7.3-5.64 1.5 2.08 7.92 5.23-1 .28 1.25 5.37-1.19-.34-1.18 4.1-1.12 2.34-4.3-1.81-2.44-2.95 2.18.47 2.5-3.96.93-1.68-6.61 4.83-1.05-.13-.82 3.02-.5-3.22-10.85z"/>
-      <path d="m501.39 669.86l-1.01 3.18.87.37-.4 1.31-.07 2.06.94 1.87 1.88.81 1.95-.19 1.61-1.43.74 1.56 5.03-2.18.21.87 4.96.12-.06-3.24-1.48-.25.54-2.68-15.71-2.18z"/>
-      <path d="m486.75 661.69l2.96 5.18 1.88-.82-2.83-5.17-2.01.81z"/>
-      <path d="m449.56 636.62l1.75 3.8 4.03-1.68-2.29-3.75-3.49 1.63z"/>
-      <path d="m468.56 652.95l1.28 2.25 4.69-2.37-1.34-2.18-4.63 2.3z"/>
-      <path d="m564.09 649.02l-.27 8.3 4.23.19.4-8.11-4.36-.38z"/>
-      <path d="m547.51 654.02l1.67 3.8 3.3-1.06-1.75-4.05-3.22 1.31z"/>
-      <path d="m552.48 654.39l1.2 3.49 4.5-1.18-1.21-3.31-4.49 1z"/>
-      <path d="m557.44 653.77l2.09-.44.33.56 1.21-.37.47.69 1.81-.69-.81-1.69-1.74.5-.4-.62-1.14.5-.28-.69-2.01.62.47 1.63z"/>
-      <path d="m552.42 601.53l.81 2.74 5.16-1.25-.33-1.06 1.75-.43-.68-1.57-6.71 1.57z"/>
-      <path d="m512.81 606.45l.47 2.24 18.87-4.11-.54-2.31-18.8 4.18z"/>
-      <path d="m526.11 608.07l.93 4.62 4.44-1-1.68-4.55-3.69.93z"/>
-      <path d="m623.25 600.09l-.41 2.24 7.12.94.13-2.31-6.84-.87z"/>
-      <path d="m695.19 582.98l-2.75 3.55 3.02 2.19 3.02-3.74-3.29-2z"/>
-      <path d="m718.81 576.74l6.92 12.98 4.7-2.19-7.12-13.16-4.5 2.37z"/>
-      <path d="m554.14 709.14l-28.2 4.62.34 1.81 5.77-1.07.27.63 17.32-2.56-.07-.87 4.9-.93-.33-1.63z"/>
-      <path d="m526.35 716.13l2.01 11.16 2.82-.44-2.15-11.16-2.68.44z"/>
-      <path d="m543.56 715.47l.27 4.05 2.01.31-.2-4.49-2.08.13z"/>
-      <path d="m534.83 734.61l.54 3.68 4.23-.31-.67-3.68-4.1.31z"/>
-      <path d="m542.61 734.32l.27 1.62 3.29-.37-.27-1.68-3.29.43z"/>
-      <path d="m543.15 739.06l.34 1.81 3.29-.25-.34-1.87-3.29.31z"/>
-      <path d="m551.8 733.02l.94 4.24 3.09-.44-.94-4.3-3.09.5z"/>
-      <path d="m560.58 732.65l.61 3.12 4.36-.44-.67-3.18-4.3.5z"/>
-      <path d="m508.89 607.3l-1.2-8.67-2.16.19 1.42 8.85 1.94-.37z"/>
-      <path d="m404.32 597.17l-.74 2.93 3.22 1.31.94-2.8-3.42-1.44z"/>
-      <path d="m389.68 594.05l-2.28 5.3 3.02 1.37 2.69-5.17-3.43-1.5z"/>
-      <path d="m378.15 577.34l-3.22 2.68 2.82 2.56 3.29-2.93-2.89-2.31z"/>
-      <path d="m599.11 612.01l.41 1.81 1.67.06-1.27-1.8-.81-.07z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_1" d="m664.77 432.07l1.07 5.12 2.68-.44-1-5.24-2.75.56z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_2" d="m677.93 430.52l.13 4.92 2.55.19 0-5.11-2.68 0z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_3" d="m690.13 426.15l-.34 4.99 2.49.06.34-4.86-2.49-.19z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_4" d="m704.83 425.02l.61 4.74 2.21-.18-.4-4.87-2.42.31z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_5" d="m718.86 426.59l-.87 4.67 2.15.19.94-4.37-2.22-.49z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_6" d="m774.92 449.6l-2.02 4.24 5.44 2.24 2.08-4.3-5.5-2.18z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_7" d="m752.83 460.14l-2.08 4.3 4.97 2.12 2.28-4.3-5.17-2.12z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_8" d="m765.24 479.36l-.47 2.99 6.31.87.54-4.05-4.5-.75-.27 1.25-1.61-.31z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_9" d="m746.37 532.76l1.34 2.3 2.15-.75-1.07-2.43-2.42.88z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_10" d="m704.35 542.92l1.14 3.74 7.18-1.43-1.07-4.8-4.1.62.14 1.12-3.29.75z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_11" d="m677.14 574.41l1.28 3.06 3.82-1.18-1.48-3.06-3.62 1.18z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_12" d="m533.28 596.19l1.47 4.81 7.39-1.5-.4-1.56 6.1-1.24-1.34-4.87-3.62.81-.61-1.12-4.9 1.12.61 2.31-4.7 1.24z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_13" d="m540.93 605.81l1.28 5.86 2.41-.43.67 2.11-10.47 2.87 1.94 6.62 8.06-1.75-.4-1.44 22.69-5.17-2.15-5.74-10.41 2.12-2.34-7.67-11.28 2.62z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_14" d="m556.64 623.83l-3.29.88 1.48 4.73-8.13 1.87 1.95 7.3-5.64 1.5 2.08 7.92 5.23-1 .28 1.25 5.37-1.19-.34-1.18 4.1-1.12 2.34-4.3-1.81-2.44-2.95 2.18.47 2.5-3.96.93-1.68-6.61 4.83-1.05-.13-.82 3.02-.5-3.22-10.85z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_15" d="m501.39 669.86l-1.01 3.18.87.37-.4 1.31-.07 2.06.94 1.87 1.88.81 1.95-.19 1.61-1.43.74 1.56 5.03-2.18.21.87 4.96.12-.06-3.24-1.48-.25.54-2.68-15.71-2.18z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_16" d="m486.75 661.69l2.96 5.18 1.88-.82-2.83-5.17-2.01.81z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_17" d="m449.56 636.62l1.75 3.8 4.03-1.68-2.29-3.75-3.49 1.63z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_18" d="m468.56 652.95l1.28 2.25 4.69-2.37-1.34-2.18-4.63 2.3z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_19" d="m564.09 649.02l-.27 8.3 4.23.19.4-8.11-4.36-.38z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_20" d="m547.51 654.02l1.67 3.8 3.3-1.06-1.75-4.05-3.22 1.31z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_21" d="m552.48 654.39l1.2 3.49 4.5-1.18-1.21-3.31-4.49 1z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_22" d="m557.44 653.77l2.09-.44.33.56 1.21-.37.47.69 1.81-.69-.81-1.69-1.74.5-.4-.62-1.14.5-.28-.69-2.01.62.47 1.63z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_23" d="m552.42 601.53l.81 2.74 5.16-1.25-.33-1.06 1.75-.43-.68-1.57-6.71 1.57z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_24" d="m512.81 606.45l.47 2.24 18.87-4.11-.54-2.31-18.8 4.18z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_25" d="m526.11 608.07l.93 4.62 4.44-1-1.68-4.55-3.69.93z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_26" d="m623.25 600.09l-.41 2.24 7.12.94.13-2.31-6.84-.87z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_27" d="m695.19 582.98l-2.75 3.55 3.02 2.19 3.02-3.74-3.29-2z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_28" d="m718.81 576.74l6.92 12.98 4.7-2.19-7.12-13.16-4.5 2.37z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_29" d="m554.14 709.14l-28.2 4.62.34 1.81 5.77-1.07.27.63 17.32-2.56-.07-.87 4.9-.93-.33-1.63z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_30" d="m526.35 716.13l2.01 11.16 2.82-.44-2.15-11.16-2.68.44z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_31" d="m543.56 715.47l.27 4.05 2.01.31-.2-4.49-2.08.13z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_32" d="m534.83 734.61l.54 3.68 4.23-.31-.67-3.68-4.1.31z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_33" d="m542.61 734.32l.27 1.62 3.29-.37-.27-1.68-3.29.43z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_34" d="m543.15 739.06l.34 1.81 3.29-.25-.34-1.87-3.29.31z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_35" d="m551.8 733.02l.94 4.24 3.09-.44-.94-4.3-3.09.5z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_36" d="m560.58 732.65l.61 3.12 4.36-.44-.67-3.18-4.3.5z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_37" d="m508.89 607.3l-1.2-8.67-2.16.19 1.42 8.85 1.94-.37z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_38" d="m404.32 597.17l-.74 2.93 3.22 1.31.94-2.8-3.42-1.44z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_39" d="m389.68 594.05l-2.28 5.3 3.02 1.37 2.69-5.17-3.43-1.5z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_40" d="m378.15 577.34l-3.22 2.68 2.82 2.56 3.29-2.93-2.89-2.31z"/>
+      <path class="map_layout_6_villas" id="map_layout_6_villa_41" d="m599.11 612.01l.41 1.81 1.67.06-1.27-1.8-.81-.07z"/>
     
   
 
