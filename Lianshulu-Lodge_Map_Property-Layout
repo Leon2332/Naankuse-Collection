@@ -1,3 +1,166 @@
+<style>
+
+/* ======================
+SOURCE: https://github.com/Leon2332/Naankuse-Collection/blob/main/Lianshulu-Lodge_Map_Property-Layout
+AUTHOR: Leon (https://github.com/Leon2332)
+CLIENT: https://www.naankusecollection.com/
+====================== */
+
+@import url("https://use.typekit.net/xah5shv.css");
+
+  .map_layout_1_villa_text {
+    font-family: century-gothic;
+    font-size: 18px;
+    fill: none;
+  }
+
+  .map_layout_1_gate_text {
+    font-family: century-gothic;
+    font-size: 14px;
+    fill: #434462;
+  }
+
+  .map_layout_1_villa_circle {
+    stroke-width: 1.5;
+    stroke: none;
+    fill: none;
+  }
+
+  .map_layout_1_roads {
+    stoke-width: 1;
+    stroke: #434462;
+    fill: none;
+  }
+
+  .map_layout_1_villas {
+    stroke-width: 1;
+    stroke: #434462;
+    fill: #43446250;
+  }
+
+  .map_layout_1_villas:hover {
+    fill: #434462;
+  }
+
+  .map_layout_1_villa_title {
+    color: #434462;
+  }
+
+  .map_layout_1_villa_title:hover {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_1_villa_1:hover) :is(#map_layout_1_villa_title_1),
+  :has(#map_layout_1_villa_2:hover) :is(#map_layout_1_villa_title_2),
+  :has(#map_layout_1_villa_3:hover) :is(#map_layout_1_villa_title_3),
+  :has(#map_layout_1_villa_4:hover) :is(#map_layout_1_villa_title_4),
+  :has(#map_layout_1_villa_5:hover) :is(#map_layout_1_villa_title_5),
+  :has(#map_layout_1_villa_6:hover) :is(#map_layout_1_villa_title_6),
+  :has(#map_layout_1_villa_7:hover) :is(#map_layout_1_villa_title_7),
+  :has(#map_layout_1_villa_8:hover) :is(#map_layout_1_villa_title_8),
+  :has(#map_layout_1_villa_9:hover) :is(#map_layout_1_villa_title_9),
+  :has(#map_layout_1_villa_10:hover) :is(#map_layout_1_villa_title_10),
+  :has(#map_layout_1_villa_11:hover) :is(#map_layout_1_villa_title_11),
+  :has(#map_layout_1_villa_12:hover) :is(#map_layout_1_villa_title_12),
+  :has(#map_layout_1_villa_13:hover) :is(#map_layout_1_villa_title_13),
+  :has(#map_layout_1_villa_14:hover) :is(#map_layout_1_villa_title_14),
+  :has(#map_layout_1_villa_15:hover) :is(#map_layout_1_villa_title_15),
+  :has(#map_layout_1_villa_16:hover) :is(#map_layout_1_villa_title_16),
+  :has(#map_layout_1_villa_17:hover) :is(#map_layout_1_villa_title_17),
+  :has(#map_layout_1_villa_18:hover) :is(#map_layout_1_villa_title_18),
+  :has(#map_layout_1_villa_19:hover) :is(#map_layout_1_villa_title_19),
+  :has(#map_layout_1_villa_20:hover) :is(#map_layout_1_villa_title_20),
+  :has(#map_layout_1_villa_21:hover) :is(#map_layout_1_villa_title_21),
+  :has(#map_layout_1_villa_22:hover) :is(#map_layout_1_villa_title_22),
+  :has(#map_layout_1_villa_23:hover) :is(#map_layout_1_villa_title_23),
+  :has(#map_layout_1_villa_24:hover) :is(#map_layout_1_villa_title_24),
+  :has(#map_layout_1_villa_25:hover) :is(#map_layout_1_villa_title_25)
+    {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_1_villa_title_1:hover) :is(#map_layout_1_villa_circle_1, #map_layout_1_villa_title_1),
+  :has(#map_layout_1_villa_title_2:hover) :is(#map_layout_1_villa_circle_2, #map_layout_1_villa_title_2),
+  :has(#map_layout_1_villa_title_3:hover) :is(#map_layout_1_villa_circle_3, #map_layout_1_villa_title_3),
+  :has(#map_layout_1_villa_title_4:hover) :is(#map_layout_1_villa_circle_4, #map_layout_1_villa_title_4),
+  :has(#map_layout_1_villa_title_5:hover) :is(#map_layout_1_villa_circle_5, #map_layout_1_villa_title_5),
+  :has(#map_layout_1_villa_title_6:hover) :is(#map_layout_1_villa_circle_6, #map_layout_1_villa_title_6),
+  :has(#map_layout_1_villa_title_7:hover) :is(#map_layout_1_villa_circle_7, #map_layout_1_villa_title_7),
+  :has(#map_layout_1_villa_title_8:hover) :is(#map_layout_1_villa_circle_8, #map_layout_1_villa_title_8),
+  :has(#map_layout_1_villa_title_9:hover) :is(#map_layout_1_villa_circle_9, #map_layout_1_villa_title_9),
+  :has(#map_layout_1_villa_title_10:hover) :is(#map_layout_1_villa_circle_10, #map_layout_1_villa_title_10),
+  :has(#map_layout_1_villa_title_11:hover) :is(#map_layout_1_villa_circle_11, #map_layout_1_villa_title_11),
+  :has(#map_layout_1_villa_title_12:hover) :is(#map_layout_1_villa_circle_12, #map_layout_1_villa_title_12),
+  :has(#map_layout_1_villa_title_13:hover) :is(#map_layout_1_villa_circle_13, #map_layout_1_villa_title_13),
+  :has(#map_layout_1_villa_title_14:hover) :is(#map_layout_1_villa_circle_14, #map_layout_1_villa_title_14),
+  :has(#map_layout_1_villa_title_15:hover) :is(#map_layout_1_villa_circle_15, #map_layout_1_villa_title_15),
+  :has(#map_layout_1_villa_title_16:hover) :is(#map_layout_1_villa_circle_16, #map_layout_1_villa_title_16),
+  :has(#map_layout_1_villa_title_17:hover) :is(#map_layout_1_villa_circle_17, #map_layout_1_villa_title_17),
+  :has(#map_layout_1_villa_title_18:hover) :is(#map_layout_1_villa_circle_18, #map_layout_1_villa_title_18),
+  :has(#map_layout_1_villa_title_19:hover) :is(#map_layout_1_villa_circle_19, #map_layout_1_villa_title_19),
+  :has(#map_layout_1_villa_title_20:hover) :is(#map_layout_1_villa_circle_20, #map_layout_1_villa_title_20),
+  :has(#map_layout_1_villa_title_21:hover) :is(#map_layout_1_villa_circle_21, #map_layout_1_villa_title_21),
+  :has(#map_layout_1_villa_title_22:hover) :is(#map_layout_1_villa_circle_22, #map_layout_1_villa_title_22),
+  :has(#map_layout_1_villa_title_23:hover) :is(#map_layout_1_villa_circle_23, #map_layout_1_villa_title_23),
+  :has(#map_layout_1_villa_title_24:hover) :is(#map_layout_1_villa_circle_24, #map_layout_1_villa_title_24),
+  :has(#map_layout_1_villa_title_25:hover) :is(#map_layout_1_villa_circle_25, #map_layout_1_villa_title_25)
+    {
+    stroke: #ab292e;
+  }
+
+  :has(#map_layout_1_villa_title_1:hover) :is(#map_layout_1_villa_1),
+  :has(#map_layout_1_villa_title_2:hover) :is(#map_layout_1_villa_2),
+  :has(#map_layout_1_villa_title_3:hover) :is(#map_layout_1_villa_3),
+  :has(#map_layout_1_villa_title_4:hover) :is(#map_layout_1_villa_4),
+  :has(#map_layout_1_villa_title_5:hover) :is(#map_layout_1_villa_5),
+  :has(#map_layout_1_villa_title_6:hover) :is(#map_layout_1_villa_6),
+  :has(#map_layout_1_villa_title_7:hover) :is(#map_layout_1_villa_7),
+  :has(#map_layout_1_villa_title_8:hover) :is(#map_layout_1_villa_8),
+  :has(#map_layout_1_villa_title_9:hover) :is(#map_layout_1_villa_9),
+  :has(#map_layout_1_villa_title_10:hover) :is(#map_layout_1_villa_10),
+  :has(#map_layout_1_villa_title_11:hover) :is(#map_layout_1_villa_11),
+  :has(#map_layout_1_villa_title_12:hover) :is(#map_layout_1_villa_12),
+  :has(#map_layout_1_villa_title_13:hover) :is(#map_layout_1_villa_13),
+  :has(#map_layout_1_villa_title_14:hover) :is(#map_layout_1_villa_14),
+  :has(#map_layout_1_villa_title_15:hover) :is(#map_layout_1_villa_15),
+  :has(#map_layout_1_villa_title_16:hover) :is(#map_layout_1_villa_16),
+  :has(#map_layout_1_villa_title_17:hover) :is(#map_layout_1_villa_17),
+  :has(#map_layout_1_villa_title_18:hover) :is(#map_layout_1_villa_18),
+  :has(#map_layout_1_villa_title_19:hover) :is(#map_layout_1_villa_19),
+  :has(#map_layout_1_villa_title_20:hover) :is(#map_layout_1_villa_20),
+  :has(#map_layout_1_villa_title_21:hover) :is(#map_layout_1_villa_21),
+  :has(#map_layout_1_villa_title_22:hover) :is(#map_layout_1_villa_22),
+  :has(#map_layout_1_villa_title_23:hover) :is(#map_layout_1_villa_23),
+  :has(#map_layout_1_villa_title_24:hover) :is(#map_layout_1_villa_24),
+  :has(#map_layout_1_villa_title_25:hover) :is(#map_layout_1_villa_25)
+    {
+    fill: #434462;
+  }
+
+@media (min-width: 993px) {
+  
+    .map_layout_1_villa_cards {
+      width: 12.5%;
+      filter: grayscale(.5) brightness(0.9);
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+    }
+  
+    .map_layout_1_villa_cards:hover {
+      width: 20%;
+      filter: grayscale(0) brightness(1);
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+    }
+  
+  }
+
+</style>
+
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <svg
 xmlns="http://www.w3.org/2000/svg"
