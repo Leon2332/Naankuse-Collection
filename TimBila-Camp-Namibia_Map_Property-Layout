@@ -1,0 +1,208 @@
+<style>
+
+/* ======================
+SOURCE: https://github.com/Leon2332/Naankuse-Collection/blob/main/TimBila-Camp-Namibia_Map_Property-Layout
+AUTHOR: Leon (https://github.com/Leon2332)
+CLIENT: https://www.naankusecollection.com/
+====================== */
+
+@import url("https://use.typekit.net/xah5shv.css");
+
+  .map_layout_10_villa_text {
+    font-family: century-gothic;
+    font-size: 18px;
+    fill: none;
+  }
+
+  .map_layout_10_road_text {
+    font-family: century-gothic;
+    font-size: 14px;
+    fill: #434462;
+  }
+
+  .map_layout_10_villa_circle {
+    stroke-width: 1.5;
+    stroke: none;
+    fill: none;
+  }
+
+  .map_layout_10_roads {
+    stoke-width: 1;
+    stroke: #434462;
+    fill: none;
+  }
+
+  .map_layout_10_rivers {
+    stroke-width: 1;
+    stroke: #434462;
+    fill: #43446250;
+  }
+
+  .map_layout_10_villas {
+    stroke-width: 1;
+    stroke: #434462;
+    fill: #43446250;
+  }
+
+  .map_layout_10_villas:hover {
+    fill: #434462;
+  }
+
+  .map_layout_10_villa_title {
+    color: #434462;
+  }
+
+  .map_layout_10_villa_title:hover {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_10_villa_1:hover) :is(#map_layout_10_villa_title_1),
+  :has(#map_layout_10_villa_2:hover) :is(#map_layout_10_villa_title_2),
+  :has(#map_layout_10_villa_3:hover) :is(#map_layout_10_villa_title_3),
+  :has(#map_layout_10_villa_4:hover) :is(#map_layout_10_villa_title_4),
+  :has(#map_layout_10_villa_5:hover) :is(#map_layout_10_villa_title_5),
+  :has(#map_layout_10_villa_6:hover) :is(#map_layout_10_villa_title_6),
+  :has(#map_layout_10_villa_7:hover) :is(#map_layout_10_villa_title_7),
+  :has(#map_layout_10_villa_8:hover) :is(#map_layout_10_villa_title_8),
+  :has(#map_layout_10_villa_9:hover) :is(#map_layout_10_villa_title_9),
+  :has(#map_layout_10_villa_10:hover) :is(#map_layout_10_villa_title_10),
+  :has(#map_layout_10_villa_11:hover) :is(#map_layout_10_villa_title_11),
+  :has(#map_layout_10_villa_12:hover) :is(#map_layout_10_villa_title_12),
+  :has(#map_layout_10_villa_13:hover) :is(#map_layout_10_villa_title_13),
+  :has(#map_layout_10_villa_14:hover) :is(#map_layout_10_villa_title_14),
+  :has(#map_layout_10_villa_15:hover) :is(#map_layout_10_villa_title_15)
+    {
+    color: #ab292e;
+  }
+
+  :has(#map_layout_10_villa_title_1:hover) :is(#map_layout_10_villa_circle_1, #map_layout_10_villa_title_1),
+  :has(#map_layout_10_villa_title_2:hover) :is(#map_layout_10_villa_circle_2, #map_layout_10_villa_title_2),
+  :has(#map_layout_10_villa_title_3:hover) :is(#map_layout_10_villa_circle_3, #map_layout_10_villa_title_3),
+  :has(#map_layout_10_villa_title_4:hover) :is(#map_layout_10_villa_circle_4, #map_layout_10_villa_title_4),
+  :has(#map_layout_10_villa_title_5:hover) :is(#map_layout_10_villa_circle_5, #map_layout_10_villa_title_5),
+  :has(#map_layout_10_villa_title_6:hover) :is(#map_layout_10_villa_circle_6, #map_layout_10_villa_title_6),
+  :has(#map_layout_10_villa_title_7:hover) :is(#map_layout_10_villa_circle_7, #map_layout_10_villa_title_7),
+  :has(#map_layout_10_villa_title_8:hover) :is(#map_layout_10_villa_circle_8, #map_layout_10_villa_title_8),
+  :has(#map_layout_10_villa_title_9:hover) :is(#map_layout_10_villa_circle_9, #map_layout_10_villa_title_9),
+  :has(#map_layout_10_villa_title_10:hover) :is(#map_layout_10_villa_circle_10, #map_layout_10_villa_title_10),
+  :has(#map_layout_10_villa_title_11:hover) :is(#map_layout_10_villa_circle_11, #map_layout_10_villa_title_11),
+  :has(#map_layout_10_villa_title_12:hover) :is(#map_layout_10_villa_circle_12, #map_layout_10_villa_title_12),
+  :has(#map_layout_10_villa_title_13:hover) :is(#map_layout_10_villa_circle_13, #map_layout_10_villa_title_13),
+  :has(#map_layout_10_villa_title_14:hover) :is(#map_layout_10_villa_circle_14, #map_layout_10_villa_title_14),
+  :has(#map_layout_10_villa_title_15:hover) :is(#map_layout_10_villa_circle_15, #map_layout_10_villa_title_15)
+    {
+    stroke: #ab292e;
+  }
+
+  :has(#map_layout_10_villa_title_1:hover) :is(#map_layout_10_villa_1),
+  :has(#map_layout_10_villa_title_2:hover) :is(#map_layout_10_villa_2),
+  :has(#map_layout_10_villa_title_3:hover) :is(#map_layout_10_villa_3),
+  :has(#map_layout_10_villa_title_4:hover) :is(#map_layout_10_villa_4),
+  :has(#map_layout_10_villa_title_5:hover) :is(#map_layout_10_villa_5),
+  :has(#map_layout_10_villa_title_6:hover) :is(#map_layout_10_villa_6),
+  :has(#map_layout_10_villa_title_7:hover) :is(#map_layout_10_villa_7),
+  :has(#map_layout_10_villa_title_8:hover) :is(#map_layout_10_villa_8),
+  :has(#map_layout_10_villa_title_9:hover) :is(#map_layout_10_villa_9),
+  :has(#map_layout_10_villa_title_10:hover) :is(#map_layout_10_villa_10),
+  :has(#map_layout_10_villa_title_11:hover) :is(#map_layout_10_villa_11),
+  :has(#map_layout_10_villa_title_12:hover) :is(#map_layout_10_villa_12),
+  :has(#map_layout_10_villa_title_13:hover) :is(#map_layout_10_villa_13),
+  :has(#map_layout_10_villa_title_14:hover) :is(#map_layout_10_villa_14),
+  :has(#map_layout_10_villa_title_15:hover) :is(#map_layout_10_villa_15)
+    {
+    fill: #434462;
+  }
+
+@media (min-width: 993px) {
+  
+    .map_layout_10_villa_cards {
+      width: 12.5%;
+      filter: grayscale(.5) brightness(0.9);
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+    }
+  
+    .map_layout_10_villa_cards:hover {
+      width: 20%;
+      filter: grayscale(0) brightness(1);
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+    }
+  
+  }
+
+</style>
+
+<?xml version="1.0"?>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.2"
+    baseProfile="tiny"
+    width="100%"
+    height=""
+    viewBox="0 0 800 358"
+    stroke-linecap="round"
+    stroke-linejoin="round">
+
+
+    <!-- ROADS -->
+      <path class="map_layout_10_roads" d="M 3.65 206.24 35.45 236.94 51.06 251.5 55.77 256.76 60.47 264.66 63.86 268.34 71.01 273.07 77.59 276.58 82.29 277.98 90.39 275.88 99.41 273.43 108.26 270.62 116.35 272.55 122.18 276.58 130.65 277.81 141.19 276.93 153.22 274.3 162.82 269.22 166.59 267.11 170.35 266.76 175.42 268.52 182.48 269.3 186.62 265.71 189.73 259.66 189.07 255.36 186.25 251.24 186.91 246.32 184.55 241.33 180.69 236.85 176.93 232.47 174.22 232.13 170.83 225.73 173.45 225.01 178.25 226.94 180.32 229.14 180.13 231.94 183.52 235.8 186.62 239.13 190.48 240.36 195.56 239.83 202.89 237.55 211.18 235.62 216.07 234.4 217.48 230.97 217.11 225.27 215.88 218.87 215.41 215.01 216.45 214.42 219.56 213.89 221.43 215.01 222.18 218.08 221.9 220.28 219.74 221.59 219.08 224.66 219.55 228.08 220.3 231.32 221.99 234.13 225.47 234.66 236.11 233.87 256.8 231.42 270.72 229.14 292.55 225.97 303.27 225.01 308.35 222.82 312.21 215.27 315.69 211.33 324.25 202.56 330.08 195.72 336.58 190.27 342.32 187.21 345.07 186.68 348.84 186.85 348.52 189.31 343.54 189.84 340.15 191.59 336.1 194.84 330.93 199.75 325.85 205.27 322.46 209.22 318.52 213.17 315.13 217.2 314.38 220.71 315.32 223.34 325.75 221.41 339.87 220.28 354.16 218.08 368.19 218.26 373.64 218 379.28 213.78 386.72 204.31 393.12 197.2 392.08 195.1 391.52 191.94 392.93 189.66 397.57 188.7 400.86 189.57 403.65 192.47 405.72 196.77 404.78 199.75 400.63 198.35 396.88 197.73 393.87 201.33 388.6 207.91 382.01 214.48 380.5 216.85 381.35 220.54 389.35 222.2 405.53 224.57 419.64 227.12 432.62 229.39 441.66 230.89 444.01 229.31 445.79 223.43 447.86 217.03 449.46 213.96 450.25 212.8 453.45 213.68 453.41 216.42 450.59 219.31 448.61 224.48 447.2 228.17 446.92 230.71 448.05 232.2 464.05 234.4 477.02 236.06 489.82 237.9 500.54 239.31 502.99 237.64 504.21 234.13 504.21 232.2 504.72 229.02 506.69 222.44 510.23 223.69 511.64 225.62 509.48 229.31 506.56 231.94 506.37 235.8 507.69 239.05 509.86 241.06 517.39 242.38 530.93 244.48 539.21 245.71 543.44 243.61 546.83 239.31 549.44 237.62 553.01 238.23 554.14 231.48 557.17 232.55 556.23 236.5 554.73 240.63 552.85 244.22 552 246.32 554.16 247.9 566.68 250.19 589.73 253.95 597.06 255.53 600.35 254.39 606.84 250.36 607.6 246.67 605.15 242.11 604.12 240.36 607.39 238.06 610.68 245.16 613.6 243.84 615.97 243.52 618.51 246.06 614 249.66 610.52 254.04 610.42 256.58 612.3 257.64 628.1 259.48 645.14 262.2 655.29 263.51 663.76 265.36 669.41 265.62 676.93 262.38 679.75 256.58 679.56 249.22 675.52 244.04 667.34 236.06 663.48 238.25 659.34 239.66 655.86 237.47 653.41 233.08 654.54 230.45 659.53 224.13 659.44 223.19 659.91 219.59 657.19 219.24 657.38 217.48 658.22 210.12 654.09 209.77 654.35 207.91 651.06 207.12 650.21 204.31 652.84 202.29 652 197.38 649.18 194.84 649.46 192.55 653.32 190.98 656.23 193.87 659.9 197.38 663.57 194.66 666.21 192.2 669.41 192.38"/>
+      <path class="map_layout_10_roads" d="M 669.41 192.38 675.37 185.13 681.96 177.23 686.57 170.22 683.66 167.41 677.63 165.04 671.62 163.21 673.78 158.64 675.09 156.89 676.96 157.1 675.55 160.52 683.08 162.98 684.12 159.73 684.97 157.68 687.8 158.03 687.51 161.27 690.43 163.38 694.29 164.52 697.86 160.48 703.97 155.83 711.41 150.57 717.62 146.1 724.76 141.71 731.35 137.06 736.81 136.54 743.4 139.61 748.19 145.75 752.61 149.95 756.75 151.36 765.31 151.45 773.49 150.22 776.03 148.47 777.82 141.19 780.74 133.03 782.71 126.97 783.28 121.98 781.21 117.86 776.22 112.95 771.99 108.47 769.08 104.52 766.63 98.29 763.9 99.44 757.97 99.52 749.98 96.71 750.68 94.55 752.09 91.47 753.08 89.7 758.44 91.1 760.42 91.72 764 91.02 763.24 85.4 761.83 77.42 759.67 64.26 757.79 52.77 756.47 44.17 755.43 41.54 752.89 40.23 749.22 40.67 746.4 43.65 746.97 48.3 746.12 53.3 745.09 58.3 741.51 60.93 738.5 60.06 734.93 57.68 733.8 53.74 738.22 48.47 739.73 46.63 739.26 42.77 740.48 39.71 743.58 40.32 748 38.3 752.04 37.24 754.3 35.79 753.74 28.89 751.29 10.54 749.98 2.95"/>
+      <path class="map_layout_10_roads" d="M 752.17 3.1 753.87 12.48 755 19.76 756.69 31.16 758.48 40.55 759.98 47.83 763.84 71.16 766.38 85.37 768.16 93.79 771.64 103.53 776.16 109.23 781.9 114.23 785.48 119.41 786.61 123.87 784.16 132.12 780.4 143.09 778.89 148.61 779.36 156.16 780.02 164.49 781.43 173.26 783.13 180.71 784.07 184.92 782.56 188.7 783.31 191.24 787.17 192.82 792.62 195.54 795.24 197.56 797.5 201.76 799 205.45"/>
+      <path class="map_layout_10_roads" d="M 796.29 205.49 793.84 199.88 791.12 197.42 785 194.53 780.3 192.95 774.93 193.74 767.6 198.21 758.38 204.53 747.27 212.42 739.71 217.53 725.41 227.62 711.3 237.97 697.47 249.02 690.04 254.02 684.02 257.79 681.95 260.6 680.82 267.09 679.78 272.88 677.81 279.19"/>
+      <path class="map_layout_10_roads" d="M 674.46 278.38 676.44 272.86 676.16 269.62 673.52 268.39 668.44 269.44 662.05 268.21 650.66 265.23 630.34 262.59 609.09 260.41 582.46 255.76 560.73 252.77 547.56 250.23 533.55 247.6 505.42 243.56 483.22 240.06 451.98 235.93 423.85 231.2 398.17 226.64 379.36 223.48 365.44 221.81 354.99 221.72 343.8 223.31 320.47 226.64 300.43 228.83 277.1 231.46 249.35 235.41 225.64 238.39 209.46 240.23 198.64 242.51 192.15 246.46 191.12 250.14 193.94 254.53 195.07 261.46 195.16 271.19 196.57 279.7 198.64 283.21 203.63 287.69 208.15 290.49"/>
+      <path class="map_layout_10_roads" d="M 205.89 292.25 198.17 286.54 192.15 280.23 187.45 279 185.1 281.37 184.91 287.69 184.54 294.53 184.35 300.4"/>
+      <path class="map_layout_10_roads" d="M 181.05 299.7 181.81 287.86 181.81 281.28 178.98 276.63 175.41 272.77 171.17 269.79 166.85 269.7 162.9 273.21 156.88 277.6 154.15 281.19 155.47 287.77 158.48 295.05 160.45 299.79 163.28 305.4"/>
+      <path class="map_layout_10_roads" d="M 160.55 306.19 156.22 296.28 152.83 288.3 150.67 281.98 148.22 279.7 142.48 280.05 133.92 281.81 126.49 281.89 119.62 280.23 114.83 276.72 110.5 274.18 106.64 274.09 96.01 276.81 83.22 280.66 79.64 280.49 72.49 277.77 66.75 274.35 62.62 273.39 60.45 275.23 60.45 279.88 61.77 286.11 63.18 290.93"/>
+      <path class="map_layout_10_roads" d="M 60.83 290.93 58.1 282.07 57.54 274.62 56.69 266.11 54.34 260.23 48.13 252.07 40.6 246.02 28.47 236.02 20.75 229 3.63 211.55 1 209.09"/>
+      <path class="map_layout_10_roads" d="M 603.84 255.94 606.75 253.48 607.7 254.71 607.51 256.29 603.84 255.94"/>
+      <path class="map_layout_10_roads" d="M 681.46 197.66 675.63 195.73 673.73 193.4 674.11 190.51 678.91 184.46 686.34 176.83 690.48 171.83 693.02 169.46 696.87 168.93 702.43 170.95 709.2 173.32 716.45 177.53 724.06 182.35 729.99 185.77 736.01 188.49 741.85 192 746.92 196.56 750.97 201.47 751.53 204.19 746.54 208.4 737.42 214.98 727.64 222.09 717.86 229.28 707.88 236.91 697.44 245.07 692.36 248.57 688.88 250.15 682.86 247.26 676.27 239.54 676.37 238.13 677.87 229.98 678.81 222.79 676.74 218.14 674.01 213.58 676.65 210.07 679.66 207.44 683.42 203.92 683.42 199.89 681.46 197.66"/>
+      <path class="map_layout_10_roads" d="M 737.45 139.21 743.37 144.39 740.55 146.66 742.6 149.28 745.89 152.62 748.43 153.23 749.93 151.91 756.52 153.85 764.42 154.55 769.69 153.67 773.26 154.2 775.42 155.51 776.27 158.14 776.93 162.88 778.25 171.91 779.57 178.93 780.41 182.44 780.51 185.25 777.5 188.32 772.79 190.51 765.65 195.25 758.78 200.07 756.33 201.56 754.73 201.21 752.19 197.35 747.48 192.79 743.54 189.72 739.31 187.35 733.28 185.07 728.77 182.79 724.06 179.46 717.95 175.86 713.34 172.88 708.07 170.42 703.65 168.93 699.04 167.53 697.53 166.82 698 164.99 703.74 159.63 710.05 155.25 718.04 149.11 725.47 144.02 730.46 141.12 737.45 139.21"/>
+
+
+    <!-- UNITS -->
+      <path class="map_layout_10_villas" id="map_layout_10_villa_1" d="M 654.09 209.77 658.22 210.12 657.38 217.48 655.97 217.22 655.69 218.28 657.19 218.63 657.19 219.24 659.91 219.59 659.44 223.19 656.44 222.84 656.06 224.94 651.54 224.24 652.49 218.28 653.61 218.36 654.09 216.96 652.77 216.87 654.09 209.77 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_2" d="M 663.2 201.79 666.12 202.49 665.65 203.89 674.59 206.79 673.56 209.5 661.79 206.09 663.2 201.79 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_3" d="M 675.63 195.73 681.46 197.66 680.43 201.08 674.69 199.24 675.63 195.73 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_4" d="M 170.83 225.73 174.22 232.13 171.21 233.27 168.1 227.04 170.83 225.73 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_5" d="M 219.56 213.89 216.45 214.42 215.04 207.66 218.15 207.14 219.56 213.89 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_6" d="M 348.84 186.85 345.07 186.68 346.2 180.89 349.68 181.15 348.84 186.85 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_7" d="M 400.86 189.57 397.57 188.7 398.98 181.77 402.27 182.55 400.86 189.57 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_8" d="M 453.45 213.68 450.25 212.8 452.23 206.57 455.42 207.27 453.45 213.68 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_9" d="M 506.69 222.44 504.72 229.02 501.52 228.15 503.21 221.66 506.69 222.44 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_10" d="M 554.14 231.48 553.01 238.23 549.44 237.62 550.75 231.22 554.14 231.48 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_11" d="M 607.39 238.06 610.78 237.1 613.6 243.84 610.68 245.16 607.39 238.06 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_12" d="M 676.96 157.1 684.12 159.73 683.08 162.98 675.55 160.52 676.96 157.1 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_13" d="M 737.45 139.21 743.37 144.39 740.55 146.66 735.1 141.31 737.45 139.21 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_14" d="M 752.09 91.47 759.42 94.11 757.92 97.18 750.68 94.55 752.09 91.47 Z"/>
+      <path class="map_layout_10_villas" id="map_layout_10_villa_15" d="M 737.17 53 743.1 48.79 745.36 51.5 739.53 55.72 737.17 53 Z"/>
+
+
+    <!-- RIVER -->
+      <path class="map_layout_10_rivers" d="M 79.64 280.49 83.22 280.66 96.01 276.81 105.89 274.05 104.86 300.54 107.68 329.31 112.38 352.47 90.46 357.03 86.7 346.15 83.88 328.61 82.75 317.2 81.72 305.63 78.14 292.03 75.13 278.7 79.64 280.49 Z"/>
+      <path class="map_layout_10_rivers" d="M 82.29 277.98 75.22 275.45 79.55 267.12 85.39 256.77 85.39 246.07 85.01 238.35 88.96 229.41 97.23 221.34 111.16 212.39 120.19 205.37 126.59 197.48 138.25 195.72 153.12 188.53 170.8 182.92 187.36 178.18 205.23 171.34 218.77 166.78 223.1 160.81 233.83 152.05 246.06 141.34 249.63 131.87 253.02 119.59 257.91 113.1 267.51 108.72 274.47 108.54 286.89 110.12 309.47 113.45 341.82 118.71 371.93 126.08 392.81 130.12 411.25 136.96 439.1 144.32 464.87 159.06 476.91 165.55 504.2 178.88 528.09 187.66 545.96 188.18 564.97 182.57 585.85 172.39 607.87 160.81 628.94 145.91 639.28 138.01 646.81 136.96 649.63 132.4 645.68 118.19 647.37 110.82 645.11 89.77 641.54 52.23 639.28 8.37 716.05 1 718.3 10.13 726.77 38.02 734.11 59.94 739.75 80.47 741.82 100.12 741.26 112.57 741.07 125.91 734.49 131.34 705.51 139.59 679.17 149.41 656.41 163.09 640.6 185.55 624.04 200.64 599.02 218 577.01 226.07 552.74 226.42 537.12 221.86 509.09 213.09 486.7 205.55 457.54 194.67 445.49 187.66 422.73 179.41 388.3 169.59 364.03 163.79 342.95 161.69 324.33 163.62 293.84 164.15 268.26 167.48 259.23 170.47 246.24 178.36 222.54 194.32 204.1 208 194.32 213.44 177.39 216.42 159.14 221.34 142.01 228.17 120.94 239.58 112.95 247.65 106.74 262.3 105.23 271.5 82.29 277.98 Z"/>
+
+
+    <!-- CIRCLES -->
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_1" cx="654.26" cy="217.11" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_2" cx="667.45" cy="205.35" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_3" cx="677.42" cy="198.37" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_4" cx="170.63" cy="228.96" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_5" cx="216.52" cy="210.34" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_6" cx="346.54" cy="183.07" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_7" cx="399.42" cy="185.07" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_8" cx="452.29" cy="209.68" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_9" cx="503.5" cy="224.97" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_10" cx="551.06" cy="234.29" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_11" cx="609.92" cy="239.94" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_12" cx="679.75" cy="159.46" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_13" cx="738.61" cy="142.84" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_14" cx="754.24" cy="93.62" r="10"/>
+      <circle class="map_layout_10_villa_circle" id="map_layout_10_villa_circle_15" cx="741.27" cy="51.72" r="10"/>
+
+    <!-- MAIN ROAD -->
+      <text class="map_layout_10_road_text" id="" x="180" y="130" text-anchor="middle" transform="rotate(45)">⇦ MAIN ROAD</text>
+
+  </svg>
