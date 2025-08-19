@@ -332,6 +332,7 @@ CLIENT: https://www.naankusecollection.com/
       <!-- RUNWAY -->
       <g>
       <path class="map_layout_6_runway" d="M 380.74 768.97 381.61 770.99 376.72 772.78 87.72 48.12 81.34 42.02 79.85 39.59 80.38 35.04 82.56 33.5 85.8 32.6 90 33.17 92.71 35.04 94.55 39.91 95.77 45.6 380.74 768.97 Z"/>
+        <text class="map_layout_6_main-road_text" id="" x="300" y="-78" text-anchor="middle" transform="rotate(68.5)">RUNWAY</text>
       </g>
 
 
